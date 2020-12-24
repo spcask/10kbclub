@@ -15,19 +15,49 @@ a:link, a:visited {color: #03c; text-decoration: none}
 a:hover, a:active {color: #03f; text-decoration: underline}
 hr {border: 0; border-bottom: thin solid}
 table {min-width: 100%; border-spacing: 0 0.25em;}
-tr {background: #eee}
 th, td {padding: 0.5em; text-align: right}
-.rank {border-left: medium solid #ccc}
-.url {text-align: left}
+th, .data {background: #eee}
+.rank, .info td {border-left: medium solid}
+.rank {border-color: #bbb}
+.data:hover, .data:active, .data:focus {background: #ddd}
+.data {cursor: pointer}
+.info {background: #eef; display: none}
+.info td {border-color: #99c}
+.url, .info td {text-align: left}
+.info td {padding: 0.8em 1em}
+.info :first-child {margin-top: 0}
+.info :last-child {margin-bottom: 0}
 footer {margin: 1.5em 0; text-align: center; font-size: small}
 @media (prefers-color-scheme: dark) {
   body {color: #bbb; background: #222}
-  tr {background: #111}
-  th:first-child, td:first-child { border-color: #444}
-  a:link, a:visited {color: #9bf;}
-  a:hover, a:active {color: #acf;}
+  a:link, a:visited {color: #9bf}
+  a:hover, a:active {color: #acf}
+  th, .data {background: #111}
+  .rank {border-color: #444}
+  .data:hover, .data:active, .data:focus {background: #000}
+  .info {background: #114; display: none}
+  .info td {border-color: #669}
 }
 </style>
+<script>
+window.onload = function () {
+  var rows = document.getElementsByClassName('info').length
+  for (var i = 1; i <= rows; i++) {
+    (function () {
+      var rank = i
+      var dataRow = document.getElementById('data' + rank)
+      var infoRow = document.getElementById('info' + rank)
+      dataRow.onclick = function () {
+        if (infoRow.style.display === '') {
+          infoRow.style.display = 'table-row'
+        } else {
+          infoRow.style.display = ''
+        }
+      }
+    })()
+  }
+}
+</script>
 </head>
 <body>
 
@@ -44,94 +74,306 @@ href="https://github.com/susam/10kbclub">this GitHub repository</a>.
 <h2 id="club-members">Club Members<a href="#club-members"></a></h2>
 <p>
 The following websites are members of the 10 KB Club. The data in the
-table below was fetched on Thu, 24 Dec 2020 10:45:28 GMT. This data is
-refreshed at least once a day. To suggest a new website to be added to
-here, see the <a href="#new-membership">New Membership</a> section.
+table below was fetched on Thu, 24 Dec 2020 16:01:32 GMT. This data is
+refreshed at least once a day. Click anywhere on a row except on the
+website name to see top 5 Hacker News discussions on links belonging to
+the website. To suggest a new website to be added to this list, see the
+<a href="#new-membership">New Membership</a> section.
 </p>
 <table>
   <tr>
-    <th class="rank">#</td>
-    <th class="url">Website</td>
-    <th class="total">Total Size</td>
-    <th class="content">Content Size</td>
-    <th class="ratio">Content Ratio</td>
+    <th class="rank">#</th>
+    <th class="url">Website</th>
+    <th class="total">Total Size</th>
+    <th class="content">Content Size</th>
+    <th class="ratio">Content Ratio</th>
   </tr>
-  <tr>
-    <td class="rank">1.</a></td>
-    <td class="url"><a href="http://neverssl.com/">neverssl.com</a></td>
-    <td class="total" title="1713 bytes">1.7&nbsp;KB</td>
-    <td class="content" title="1713 bytes">1.7&nbsp;KB</td>
+  <tr class="data" id="data1">
+    <td class="rank">1.</td>
+    <td class="url"><a href="http://neverssl.com/" id="url1">neverssl.com</a></td>
+    <td class="total" title="1714 bytes">1.7&nbsp;KB</td>
+    <td class="content" title="1714 bytes">1.7&nbsp;KB</td>
     <td class="ratio">100%</td>
   </tr>
-  <tr>
-    <td class="rank">2.</a></td>
-    <td class="url"><a href="https://sjmulder.nl/">sjmulder.nl</a></td>
+  <tr class="info" id="info1">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=13369038">NeverSSL</a> (307 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=21430157">NeverSSL</a> (346 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data2">
+    <td class="rank">2.</td>
+    <td class="url"><a href="https://sjmulder.nl/" id="url2">sjmulder.nl</a></td>
     <td class="total" title="2391 bytes">2.3&nbsp;KB</td>
     <td class="content" title="2391 bytes">2.3&nbsp;KB</td>
     <td class="ratio">100%</td>
   </tr>
-  <tr>
-    <td class="rank">3.</a></td>
-    <td class="url"><a href="https://augustl.com/">augustl.com</a></td>
-    <td class="total" title="3060 bytes">3.0&nbsp;KB</td>
-    <td class="content" title="1286 bytes">1.3&nbsp;KB</td>
+  <tr class="info" id="info2">
+    <td colspan="5">
+      <p>
+        See the following Hacker News story:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=23626929">Text-Only
+          Websites</a> (302 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data3">
+    <td class="rank">3.</td>
+    <td class="url"><a href="https://augustl.com/" id="url3">augustl.com</a></td>
+    <td class="total" title="3062 bytes">3.0&nbsp;KB</td>
+    <td class="content" title="1287 bytes">1.3&nbsp;KB</td>
     <td class="ratio">42%</td>
   </tr>
-  <tr>
-    <td class="rank">4.</a></td>
-    <td class="url"><a href="https://plumebio.com/">plumebio.com</a></td>
+  <tr class="info" id="info3">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=6086983">ZeroMQ
+          instead of HTTP, for internal services</a> (206 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=7166173">An immutable
+          operating system</a> (286 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=7449262">JDK8 +
+          Facebook React: Rendering single page apps on the server </a> (118
+          points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=8153781">That WoW
+          server blade</a> (104 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=16889789">Datomic:
+          Look at all the things I'm not doing</a> (138 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data4">
+    <td class="rank">4.</td>
+    <td class="url"><a href="https://plumebio.com/" id="url4">plumebio.com</a></td>
     <td class="total" title="3592 bytes">3.5&nbsp;KB</td>
     <td class="content" title="1994 bytes">1.9&nbsp;KB</td>
     <td class="ratio">56%</td>
   </tr>
-  <tr>
-    <td class="rank">5.</a></td>
-    <td class="url"><a href="https://sdf.org/">sdf.org</a></td>
+  <tr class="info" id="info4">
+    <td colspan="5">
+      <p>
+        See the following Hacker News story:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=24019540">Show HN:
+          JavaScript-free personal bio hosting</a> (123 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data5">
+    <td class="rank">5.</td>
+    <td class="url"><a href="https://sdf.org/" id="url5">sdf.org</a></td>
     <td class="total" title="4906 bytes">4.8&nbsp;KB</td>
     <td class="content" title="4906 bytes">4.8&nbsp;KB</td>
     <td class="ratio">100%</td>
   </tr>
-  <tr>
-    <td class="rank">6.</a></td>
-    <td class="url"><a href="https://susam.in/">susam.in</a></td>
+  <tr class="info" id="info5">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=5638988">This page is
+          anonymous</a> (450 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=7424814">iOS 7.1
+          Mobile Safari Minimal UI</a> (151 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=12351187">Dinosaur and
+          Lisp</a> (237 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=14134798">SDF – Public
+          Access Unix System</a> (194 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=17844587">From GNU
+          social to Mastodon</a> (186 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data6">
+    <td class="rank">6.</td>
+    <td class="url"><a href="https://susam.in/" id="url6">susam.in</a></td>
     <td class="total" title="5773 bytes">5.6&nbsp;KB</td>
     <td class="content" title="2312 bytes">2.3&nbsp;KB</td>
     <td class="ratio">40%</td>
   </tr>
-  <tr>
-    <td class="rank">7.</a></td>
-    <td class="url"><a href="https://john-doe.neocities.org">john-doe.neocities.org</a></td>
-    <td class="total" title="7434 bytes">7.3&nbsp;KB</td>
-    <td class="content" title="4689 bytes">4.6&nbsp;KB</td>
+  <tr class="info" id="info6">
+    <td colspan="5">
+      <p>
+        See the following Hacker News story:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=21700139">Sinkholed</a> (616 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data7">
+    <td class="rank">7.</td>
+    <td class="url"><a href="https://john-doe.neocities.org" id="url7">john-doe.neocities.org</a></td>
+    <td class="total" title="7448 bytes">7.3&nbsp;KB</td>
+    <td class="content" title="4696 bytes">4.6&nbsp;KB</td>
     <td class="ratio">63%</td>
   </tr>
-  <tr>
-    <td class="rank">8.</a></td>
-    <td class="url"><a href="https://kerkour.fr/">kerkour.fr</a></td>
-    <td class="total" title="7464 bytes">7.3&nbsp;KB</td>
-    <td class="content" title="5648 bytes">5.5&nbsp;KB</td>
+  <tr class="info" id="info7">
+    <td colspan="5">
+      <p>
+        See the following Hacker News story:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=25170078">Show HN: A
+          simple way to make HTML websites</a> (200 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data8">
+    <td class="rank">8.</td>
+    <td class="url"><a href="https://kerkour.fr/" id="url8">kerkour.fr</a></td>
+    <td class="total" title="7465 bytes">7.3&nbsp;KB</td>
+    <td class="content" title="5639 bytes">5.5&nbsp;KB</td>
     <td class="ratio">76%</td>
   </tr>
-  <tr>
-    <td class="rank">9.</a></td>
-    <td class="url"><a href="https://1mb.club/">1mb.club</a></td>
-    <td class="total" title="8682 bytes">8.5&nbsp;KB</td>
-    <td class="content" title="7930 bytes">7.7&nbsp;KB</td>
+  <tr class="info" id="info8">
+    <td colspan="5">
+      <p>
+        See the following Hacker News story:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=20105567">Show HN:
+          Bloom – A free and open source 'Google'</a> (747 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data9">
+    <td class="rank">9.</td>
+    <td class="url"><a href="https://1mb.club/" id="url9">1mb.club</a></td>
+    <td class="total" title="7793 bytes">7.6&nbsp;KB</td>
+    <td class="content" title="7106 bytes">6.9&nbsp;KB</td>
     <td class="ratio">91%</td>
   </tr>
-  <tr>
-    <td class="rank">10.</a></td>
-    <td class="url"><a href="http://cat-v.org/">cat-v.org</a></td>
+  <tr class="info" id="info9">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=25151773">1MB Club</a>
+          (965 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data10">
+    <td class="rank">10.</td>
+    <td class="url"><a href="http://cat-v.org/" id="url10">cat-v.org</a></td>
     <td class="total" title="10119 bytes">9.9&nbsp;KB</td>
     <td class="content" title="6647 bytes">6.5&nbsp;KB</td>
     <td class="ratio">66%</td>
   </tr>
-  <tr>
-    <td class="rank">11.</a></td>
-    <td class="url"><a href="http://akkartik.name/">akkartik.name</a></td>
+  <tr class="info" id="info10">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=2079631">SOAP: The 'S'
+          stands for simple (not really)</a> (246 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=2275161">The Origin of
+          Unix Pipes</a> (133 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=2570448">The Basic
+          Laws of Human Stupidity</a> (120 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=2723505">The
+          'intellectual property' oxymoron </a> (115 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=2772718">Plan9 has
+          been forked: 9front </a> (150 points)
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="data" id="data11">
+    <td class="rank">11.</td>
+    <td class="url"><a href="http://akkartik.name/" id="url11">akkartik.name</a></td>
     <td class="total" title="10191 bytes">10.0&nbsp;KB</td>
     <td class="content" title="10191 bytes">10.0&nbsp;KB</td>
     <td class="ratio">100%</td>
+  </tr>
+  <tr class="info" id="info11">
+    <td colspan="5">
+      <p>
+        See the following Hacker News stories:
+      </p>
+      <ul>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=15676691">The cargo cult
+          of versioning</a> (198 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=16471161">Nobody's
+          just reading your code</a> (352 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=21268252">Mu: A minimal
+          hobbyist computing stack</a> (105 points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=21604685">Mu:
+          Sketching out a minimal system programming language</a> (102
+          points)
+        </li>
+        <li>
+          <a href="https://news.ycombinator.com/item?id=22599953">Bicycles for
+          the mind have to be see-through</a> (210 points)
+        </li>
+      </ul>
+    </td>
   </tr>
 </table>
 <p>
@@ -196,38 +438,40 @@ to its home page. The URL must satisfy the following rules:
     <p>
       Some content from the website must have received at least 100
       points on <a href="https://news.ycombinator.com/">Hacker News</a>
-      on at least one occasion. Use the following URL to check
-      submissions for a website on Hacker News and the votes each
-      submission has received: <a
+      on at least one occasion or it must be very noteworthy. Use the
+      following URL to check submissions for a website on Hacker News
+      and the votes each submission has received: <a
       href="https://news.ycombinator.com/from?site=example.com">https://news.ycombinator.com/from?site=example.com</a>
-      (replace "example.com" with the domain of the website).
+      (replace "example.com" with the domain of the website). Whether a
+      website is noteworthy or not will be decided on a case by case
+      basis.
     </p>
   </li>
 </ol>
 <p>
-Note that the steps provided for Firefox and Chrome in the 1st point do
-not constitute a definitive decision criteria for membership. The final
-decision on whether the compressed transfer size is done by <a
-href="https://github.com/susam/10kbclub/blob/master/refresh.js">refresh.js</a>
-in the source code of this website. It does not always exactly match
-what Firefox or Chrome shows. For example, this script does not count
-the <a href="https://en.wikipedia.org/wiki/Favicon">favicon</a> transfer
-size, so the transfer size that this script determines is usually a
-little less than what Firefox or Chrome shows.
+Note that the manual steps provided for Firefox and Chrome in the 1st
+point do not constitute a definitive decision criteria for membership.
+The compressed transfer size computation for every website is automated
+in <a
+href="https://github.com/susam/10kbclub/blob/master/refresh.js">refresh.js</a>.
+The compressed transfer size observed by this script decides whether a
+website satisfies the 1st rule. The compressed transfer size observed by
+the script does not always exactly match what Firefox or Chrome shows.
+For example, this script does not count the <a
+href="https://en.wikipedia.org/wiki/Favicon">favicon</a> transfer size,
+so the transfer size that this script determines is usually a little
+less than what Firefox or Chrome shows.
 </p>
 <p>
 If a website's domain name or URL changed since one of its links
 received 100 or more points on Hacker News, as long as we can prove that
 the URL being submitted is indeed the same website from which some
 content received at least 100 points on Hacker News, it is eligible to
-be a member of this club.
-</p>
-<p>
-If you think that there is a very useful website that does not satisfy
-the 4th point but is still noteworthy enough to be a part of this list,
-please go ahead and propose it for addition by following the <a
-href="#new-membership">next section</a>. We will decide whether to add
-such websites on a case by case basis.
+be a member of this club. For example, if the old website URL redirects to the
+new website or if the <a href="https://archive.org/">Wayback Machine</a>
+shows that the old URL had the same content as the new one, or if it is
+obvious that the content that was discussed on Hacker News now resides
+at a new URL, then that would be sufficient proof of eligibility.
 </p>
 
 <h2 id="new-membership">New Membership<a href="#new-membership"></a></h2>
