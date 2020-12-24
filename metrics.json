@@ -1,11 +1,11 @@
 {
-  "metricsTime": "Thu, 24 Dec 2020 03:05:45 GMT",
+  "metricsTime": "Thu, 24 Dec 2020 03:12:28 GMT",
   "metricsList": [
     {
       "url": "http://neverssl.com/",
-      "contentSize": 1685,
+      "contentSize": 1716,
       "extraSize": 0,
-      "totalSize": 1685,
+      "totalSize": 1716,
       "contentRatio": 100
     },
     {
@@ -17,10 +17,10 @@
     },
     {
       "url": "https://augustl.com/",
-      "contentSize": 1290,
-      "extraSize": 1770,
-      "totalSize": 3060,
-      "contentRatio": 42.15686274509804
+      "contentSize": 1285,
+      "extraSize": 1771,
+      "totalSize": 3056,
+      "contentRatio": 42.04842931937173
     },
     {
       "url": "https://plumebio.com/",
@@ -31,9 +31,9 @@
     },
     {
       "url": "https://sdf.org/",
-      "contentSize": 4906,
+      "contentSize": 4721,
       "extraSize": 0,
-      "totalSize": 4906,
+      "totalSize": 4721,
       "contentRatio": 100
     },
     {
@@ -45,24 +45,24 @@
     },
     {
       "url": "https://john-doe.neocities.org",
-      "contentSize": 4690,
-      "extraSize": 2746,
-      "totalSize": 7436,
-      "contentRatio": 63.071543840774616
+      "contentSize": 4696,
+      "extraSize": 2752,
+      "totalSize": 7448,
+      "contentRatio": 63.05048335123523
     },
     {
       "url": "https://kerkour.fr/",
-      "contentSize": 5637,
-      "extraSize": 1823,
-      "totalSize": 7460,
-      "contentRatio": 75.56300268096516
+      "contentSize": 5638,
+      "extraSize": 1827,
+      "totalSize": 7465,
+      "contentRatio": 75.52578700602814
     },
     {
       "url": "https://1mb.club/",
-      "contentSize": 7106,
+      "contentSize": 7098,
       "extraSize": 689,
-      "totalSize": 7795,
-      "contentRatio": 91.16100064143681
+      "totalSize": 7787,
+      "contentRatio": 91.15191986644408
     },
     {
       "url": "http://cat-v.org/",
