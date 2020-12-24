@@ -62,7 +62,7 @@ To build and develop this project locally, perform the following steps:
     npm install
     ```
 
- 4. Enter the following command to update [`metrics.json`] file with
+ 4. Enter the following command to generate a `metrics.json` file with
     metrics data for each URL specified in [`urls.txt`]:
 
     ```sh
@@ -70,7 +70,7 @@ To build and develop this project locally, perform the following steps:
     ```
 
  5. Enter the following command to render an updated [`index.html`] with
-    using the data in [`metrics.json`]:
+    using the data in `metrics.json`:
 
     ```sh
     node render.js
@@ -116,11 +116,11 @@ understanding this project.
     automatically published as https://10kbclub.com/ using [GitHub
     Pages][gh-pages].
 
- 2. The files [`index.html`] and [`metrics.json`] get updated
-    automatically once a day at 00:00:00 UTC as well as on every push
-    via GitHub Actions. See [`publish.yml`] for the GitHub Actions
-    workflow. See https://github.com/susam/10kbclub/actions for the
-    previous executions of the workflow.
+ 2. The file [`index.html`] gets updated automatically once a day at
+    00:00:00 UTC as well as on every push via GitHub Actions. See
+    [`publish.yml`] for the GitHub Actions workflow. See
+    https://github.com/susam/10kbclub/actions for the previous
+    executions of the workflow.
 
 [gh-pages]: https://pages.github.com/
 [`publish.yml`]: .github/workflows/publish.yml
