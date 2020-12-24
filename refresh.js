@@ -1,5 +1,6 @@
 const phantomas = require('phantomas')
 const fs = require('fs')
+const urls = require('./urls')
 
 async function fetchURL (url) {
   console.log('url:', url)
@@ -35,10 +36,10 @@ async function fetchURL (url) {
   }
 }
 
-async function refreshMetrics (urls) {
+async function refreshMetrics (urlList) {
   const metricsList = []
-  for (const [index, url] of urls.entries()) {
-    console.log('Fetching URL', (index + 1), 'of', urls.length)
+  for (const [index, url] of urlList.entries()) {
+    console.log('Fetching URL', (index + 1), 'of', urlList.length)
     const metrics = await fetchURL(url)
     if (metrics.totalSize <= 10240) {
       metricsList.push(metrics)
@@ -60,9 +61,8 @@ function writeMetrics (metricsList) {
 }
 
 async function main () {
-  const lines = fs.readFileSync('urls.txt', 'utf8')
-  const urls = lines.split('\n').filter(url => url !== '')
-  const metricsList = await refreshMetrics(urls)
+  const urlList = urls.map(item => item.url)
+  const metricsList = await refreshMetrics(urlList)
   writeMetrics(metricsList)
 }
 
