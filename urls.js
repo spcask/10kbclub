@@ -1,7 +1,7 @@
 module.exports = [
   {
-    'url': 'http://akkartik.name/',
-    'info': `
+    url: 'http://akkartik.name/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -31,8 +31,8 @@ module.exports = [
     `
   },
   {
-    'url': 'http://cat-v.org/',
-    'info': `
+    url: 'http://cat-v.org/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -61,8 +61,8 @@ module.exports = [
     `
   },
   {
-    'url': 'http://neverssl.com/',
-    'info': `
+    url: 'http://neverssl.com/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -74,11 +74,11 @@ module.exports = [
           <a href="https://news.ycombinator.com/item?id=21430157">NeverSSL</a> (346 points)
         </li>
       </ul>
-`,
+    `
   },
   {
-    'url': 'https://1mb.club/',
-    'info': `
+    url: 'https://1mb.club/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -91,8 +91,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://augustl.com/',
-    'info': `
+    url: 'https://augustl.com/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -122,8 +122,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://john-doe.neocities.org',
-    'info': `
+    url: 'https://john-doe.neocities.org',
+    info: `
       <p>
         See the following Hacker News story:
       </p>
@@ -136,8 +136,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://kerkour.fr/',
-    'info': `
+    url: 'https://kerkour.fr/',
+    info: `
       <p>
         See the following Hacker News story:
       </p>
@@ -150,8 +150,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://plumebio.com/',
-    'info': `
+    url: 'https://plumebio.com/',
+    info: `
       <p>
         See the following Hacker News story:
       </p>
@@ -164,8 +164,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://sdf.org/',
-    'info': `
+    url: 'https://sdf.org/',
+    info: `
       <p>
         See the following Hacker News stories:
       </p>
@@ -194,8 +194,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://sjmulder.nl/',
-    'info': `
+    url: 'https://sjmulder.nl/',
+    info: `
       <p>
         See the following Hacker News story:
       </p>
@@ -208,8 +208,8 @@ module.exports = [
     `
   },
   {
-    'url': 'https://susam.in/',
-    'info': `
+    url: 'https://susam.in/',
+    info: `
       <p>
         See the following Hacker News story:
       </p>
@@ -219,5 +219,5 @@ module.exports = [
         </li>
       </ul>
     `
-  },
+  }
 ]
