@@ -1,0 +1,19 @@
+{
+  "name": "10kbclub",
+  "version": "0.1.0-dev",
+  "description": "10 KB Club website generator",
+  "homepage": "http://github.com/susam/10kbclub",
+  "bugs": "http://github.com/susam/10kbclub/issues",
+  "license": "MIT",
+  "author": "Susam Pal <susam@susam.in> (https://susam.in/)",
+  "repository": "github:susam/10kbclub",
+  "dependencies": {
+    "phantomas": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.0"
+  },
+  "scripts": {
+    "lint": "standard --verbose"
+  }
+}

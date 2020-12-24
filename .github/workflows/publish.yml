@@ -1,0 +1,15 @@
+name: Publish
+
+on:
+  push:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: date; pwd; ls -l
+      - run: make setup
+      - run: make publish
