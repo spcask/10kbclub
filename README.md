@@ -11,7 +11,7 @@ Contents
 
 * [Suggest New Website](#suggest-new-website)
 * [Development Setup](#development-setup)
-* [Contribution Guidelines](#contribution-guidelines)
+* [Commit Guidelines](#commit-guidelines)
 * [Additional Details](#additional-details)
 * [License](#license)
 * [Support](#support)
@@ -79,28 +79,24 @@ To build and develop this project locally, perform the following steps:
  6. Now open [`index.html`] using a web browser to see the output.
 
 
-Contribution Guidelines
------------------------
+Commit Guidelines
+-----------------
 
-If you plan to make bug fixes or enhancements to this project and submit
-a pull request, please follow these guidelines:
+The following guidelines are followed in the commits made manually:
 
- 1. Ensure that there are no changes to [`index.html`] or
-    [`metrics.json`] in the pull request. These are automatically
-    generated files. They will be generated and pushed to
-    [10kbclub.com][website] automatically during the next build.
+ 1. No changes to [`index.html`] should be present in a manual commit.
+    This file is updated and pushed to [10kbclub.com][website]
+    automatically during automated builds.
 
- 2. Run the following command to ensure that the changes conform to the
-    project's coding conventions:
+ 2. The following command should pass without errors:
 
     ```sh
     npm run lint
     ```
 
- 3. Write the commit message properly as per the guidelines in this
-    document: [Writing Good Commit Messages][commit-conventions].
+ 3. Commit messages are written as per the guidelines in this document:
+    [Writing Good Commit Messages][commit-conventions].
 
-[`metrics.json`]: metrics.json
 [`urls.txt`]: urls.txt
 [`index.html`]: index.html
 [commit-conventions]: https://github.com/erlang/otp/wiki/Writing-good-commit-messages
