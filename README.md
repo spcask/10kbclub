@@ -63,17 +63,17 @@ To build and develop this project locally, perform the following steps:
     ```
 
  4. Enter the following command to generate a `metrics.json` file with
-    metrics data for each URL specified in [`urls.js`]:
+    metrics data for each URL specified in [`js/urls.js`]:
 
     ```sh
-    node refresh.js
+    node src/refresh.js
     ```
 
  5. Enter the following command to render an updated [`index.html`] with
     using the data in `metrics.json`:
 
     ```sh
-    node render.js
+    node src/render.js
     ```
 
  6. Now open [`index.html`] using a web browser to see the output.
@@ -97,7 +97,7 @@ The following guidelines are followed in the commits made manually:
  3. Commit messages are written as per the guidelines in this document:
     [Writing Good Commit Messages][commit-conventions].
 
-[`urls.js`]: urls.js
+[`js/urls.js`]: js/urls.js
 [`index.html`]: index.html
 [commit-conventions]: https://github.com/erlang/otp/wiki/Writing-good-commit-messages
 

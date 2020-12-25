@@ -1,7 +1,7 @@
 render:
 	time -p npm run lint
-	time -p node refresh.js
-	time -p node render.js
+	time -p node src/refresh.js
+	time -p node src/render.js
 
 setup:
 	uname | grep Darwin && brew install node; :

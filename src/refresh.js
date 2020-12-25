@@ -1,5 +1,6 @@
-const phantomas = require('phantomas')
 const fs = require('fs')
+const path = require('path')
+const phantomas = require('phantomas')
 const urls = require('./urls')
 
 async function fetchURL (url) {
@@ -56,7 +57,8 @@ function writeMetrics (metricsList) {
     metricsList: metricsList
   }
   const jsonString = JSON.stringify(metrics, null, 2) + '\n'
-  fs.writeFileSync('metrics.json', jsonString)
+  const metricsPath = path.join(__dirname, '..', 'metrics.json')
+  fs.writeFileSync(metricsPath, jsonString, 'utf8')
   console.log('Updated metrics.json with latest data')
 }
 

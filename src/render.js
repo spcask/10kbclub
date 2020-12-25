@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const urls = require('./urls')
 
 function htmlRow (rank, metrics, info) {
@@ -23,7 +24,8 @@ function htmlRow (rank, metrics, info) {
 }
 
 function main () {
-  const metrics = JSON.parse(fs.readFileSync('metrics.json'))
+  const metricsPath = path.join(__dirname, '..', 'metrics.json')
+  const metrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
   const urlMap = {}
   for (const urlItem of urls) {
     urlMap[urlItem.url] = urlItem
@@ -35,9 +37,11 @@ function main () {
   }
   console.log('htmlRows:\n', htmlRows)
 
-  const template = fs.readFileSync('template.html', 'utf8')
+  const templatePath = path.join(__dirname, 'template.html')
+  const template = fs.readFileSync(templatePath, 'utf8')
   const output = eval('`' + template + '`') // eslint-disable-line no-eval
-  fs.writeFileSync('index.html', output, 'utf8')
+  const outputPath = path.join(__dirname, '..', 'index.html')
+  fs.writeFileSync(outputPath, output, 'utf8')
   console.log('Done rendering index.html')
 }
 
