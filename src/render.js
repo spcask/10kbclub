@@ -37,6 +37,10 @@ function main () {
   }
   console.log('htmlRows:\n', htmlRows)
 
+  const metricsTime = urlMetrics.metricsTime
+  const date = metricsTime.substring(0, 16)
+  const time = metricsTime.substring(17, 22) + metricsTime.substring(25)
+
   const templatePath = path.join(__dirname, 'template.html')
   const template = fs.readFileSync(templatePath, 'utf8')
   const output = eval('`' + template + '`') // eslint-disable-line no-eval
