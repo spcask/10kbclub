@@ -74,12 +74,13 @@ href="https://github.com/susam/10kbclub">this GitHub repository</a>.
 <h2 id="club-members">Club Members<a href="#club-members"></a></h2>
 <p>
 The following websites are members of the 10 KB Club. The data in the
-table below was fetched on Fri, 25 Dec 2020 01:08:22 GMT. This data is
-refreshed at least once a day. Click anywhere on a row except on the
-website name to see links to a few interesting Hacker News discussions
-on links belonging to the website. To suggest a new website to be added
-to this list, see the <a href="#new-membership">New Membership</a>
-section.
+table below was fetched on Fri, 25 Dec 2020 07:57:40 GMT. This data is
+refreshed automatically every Saturday at 01:09 UTC as well as on every
+push to its <a href="https://github.com/susam/10kbclub">GitHub
+repository</a>. Click anywhere on a row except on the website name to
+see links to a few interesting Hacker News discussions on links
+belonging to the website. To suggest a new website to be added to this
+list, see the <a href="#new-membership">New Membership</a> section.
 </p>
 <table>
   <tr>
@@ -92,8 +93,8 @@ section.
   <tr class="data" id="data1">
     <td class="rank">1.</td>
     <td class="url"><a href="http://neverssl.com/" id="url1">neverssl.com</a></td>
-    <td class="total" title="1683 bytes">1.6&nbsp;KB</td>
-    <td class="content" title="1683 bytes">1.6&nbsp;KB</td>
+    <td class="total" title="1690 bytes">1.7&nbsp;KB</td>
+    <td class="content" title="1690 bytes">1.7&nbsp;KB</td>
     <td class="ratio">100%</td>
   </tr>
   <tr class="info" id="info1">
@@ -134,8 +135,8 @@ section.
   <tr class="data" id="data3">
     <td class="rank">3.</td>
     <td class="url"><a href="https://augustl.com/" id="url3">augustl.com</a></td>
-    <td class="total" title="3054 bytes">3.0&nbsp;KB</td>
-    <td class="content" title="1284 bytes">1.3&nbsp;KB</td>
+    <td class="total" title="3056 bytes">3.0&nbsp;KB</td>
+    <td class="content" title="1282 bytes">1.3&nbsp;KB</td>
     <td class="ratio">42%</td>
   </tr>
   <tr class="info" id="info3">
@@ -286,8 +287,8 @@ section.
   <tr class="data" id="data9">
     <td class="rank">9.</td>
     <td class="url"><a href="https://1mb.club/" id="url9">1mb.club</a></td>
-    <td class="total" title="8683 bytes">8.5&nbsp;KB</td>
-    <td class="content" title="7930 bytes">7.7&nbsp;KB</td>
+    <td class="total" title="7791 bytes">7.6&nbsp;KB</td>
+    <td class="content" title="7106 bytes">6.9&nbsp;KB</td>
     <td class="ratio">91%</td>
   </tr>
   <tr class="info" id="info9">
@@ -380,7 +381,7 @@ section.
 <p>
 Do not take the content size and content ratio columns too seriously.
 The content size is calculated using <a
-href="https://github.com/susam/10kbclub/blob/master/refresh.js">refresh.js</a>
+href="https://github.com/susam/10kbclub/blob/master/src/refresh.js">refresh.js</a>
 in the source code of the repository. It is not always accurate. For
 example, it considers internal CSS to be content but external CSS to be
 not content. Therefore, home pages that use CSS within an HTML page have
@@ -437,12 +438,12 @@ to its home page. The URL must satisfy the following rules:
   </li>
   <li>
     <p>
-      Some content from the website must have received at least 100
-      points on <a href="https://news.ycombinator.com/">Hacker News</a>
-      on at least one occasion or it must be very noteworthy. Use the
-      following URL to check submissions for a website on Hacker News
-      and the votes each submission has received: <a
-      href="https://news.ycombinator.com/from?site=example.com">https://news.ycombinator.com/from?site=example.com</a>
+      The website must be very noteworthy or some content from the
+      website must have received at least 100 points on <a
+      href="https://news.ycombinator.com/">Hacker News</a> on at least
+      one occasion. Use the following URL to check submissions for a
+      website on Hacker News and the votes each submission has received:
+      <a href="https://news.ycombinator.com/from?site=example.com">https://news.ycombinator.com/from?site=example.com</a>
       (replace "example.com" with the domain of the website). Whether a
       website is noteworthy or not will be decided on a case by case
       basis.
@@ -454,7 +455,7 @@ Note that the manual steps provided for Firefox and Chrome in the 1st
 point do not constitute a definitive decision criteria for membership.
 The compressed transfer size computation for every website is automated
 in <a
-href="https://github.com/susam/10kbclub/blob/master/refresh.js">refresh.js</a>.
+href="https://github.com/susam/10kbclub/blob/master/src/refresh.js">refresh.js</a>.
 The compressed transfer size observed by this script decides whether a
 website satisfies the 1st rule. The compressed transfer size observed by
 the script does not always exactly match what Firefox or Chrome shows.
@@ -477,9 +478,9 @@ at a new URL, then that would be sufficient proof of eligibility.
 
 <h2 id="new-membership">New Membership<a href="#new-membership"></a></h2>
 <p>
-To add a new member website to this club, first ensure that it satisfies
-the rules laid out in the <a href="#club-rules">Club Rules</a> section.
-If it satisfies the club rules, then <a
+To add a website as a member to this club, first ensure that it
+satisfies the rules laid out in the <a href="#club-rules">Club Rules</a>
+section. If it satisfies the club rules, then <a
 href="https://github.com/susam/10kbclub/issues/new">create a new issue
 on GitHub</a> and provide the URL of the website.
 </p>
