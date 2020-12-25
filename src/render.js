@@ -1,17 +1,17 @@
 const fs = require('fs')
 const path = require('path')
 const urls = require('./urls')
+const metrics = require('./metrics')
 
-function htmlRow (rank, metrics, info) {
-  const website = metrics.url.replace(/^https?:\/\//, '').replace(/\/$/, '')
-  const totalSize = metrics.totalSize
-  const contentSize = metrics.contentSize
-  const totalKB = (metrics.totalSize / 1024).toFixed(1)
-  const contentKB = (metrics.contentSize / 1024).toFixed(1)
-  const contentRatio = metrics.contentRatio.toFixed(0)
+function htmlRow (rank, urlMetrics, info) {
+  const url = urlMetrics.url
+  const website = url.replace(/^https?:\/\//, '').replace(/\/$/, '')
+  const totalSize = urlMetrics.totalSize
+  const contentSize = urlMetrics.contentSize
+  const [totalKB, contentKB, contentRatio] = metrics.htmlSummary(urlMetrics)
   return `  <tr class="data" id="data${rank}">
     <td class="rank">${rank}.</td>
-    <td class="url"><a href="${metrics.url}" id="url${rank}">${website}</a></td>
+    <td class="url"><a href="${url}" id="url${rank}">${website}</a></td>
     <td class="total" title="${totalSize} bytes">${totalKB}&nbsp;KB</td>
     <td class="content" title="${contentSize} bytes">${contentKB}&nbsp;KB</td>
     <td class="ratio">${contentRatio}%</td>
@@ -25,14 +25,14 @@ function htmlRow (rank, metrics, info) {
 
 function main () {
   const metricsPath = path.join(__dirname, '..', 'metrics.json')
-  const metrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
+  const urlMetrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
   const urlMap = {}
   for (const urlItem of urls) {
     urlMap[urlItem.url] = urlItem
   }
 
   let htmlRows = ''
-  for (const [i, m] of metrics.metricsList.entries()) {
+  for (const [i, m] of urlMetrics.metricsList.entries()) {
     htmlRows += htmlRow(i + 1, m, urlMap[m.url].info.trim())
   }
   console.log('htmlRows:\n', htmlRows)
