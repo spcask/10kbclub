@@ -12,9 +12,9 @@ function htmlRow (rank, urlMetrics, info) {
   return `  <tr class="data" id="data${rank}">
     <td class="rank">${rank}.</td>
     <td class="url"><a href="${url}" id="url${rank}">${website}</a></td>
-    <td class="total" title="${totalSize} bytes">${totalKB}&nbsp;KB</td>
-    <td class="content" title="${contentSize} bytes">${contentKB}&nbsp;KB</td>
-    <td class="ratio">${contentRatio}%</td>
+    <td class="total" title="${totalSize} bytes">${totalKB}</td>
+    <td class="content" title="${contentSize} bytes">${contentKB}</td>
+    <td class="ratio">${contentRatio}</td>
   </tr>
   <tr class="info" id="info${rank}">
     <td colspan="5">
