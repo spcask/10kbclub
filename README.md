@@ -76,7 +76,20 @@ To build and develop this project locally, perform the following steps:
     node src/render.js
     ```
 
- 6. Now open [`index.html`] using a web browser to see the output.
+ 6. Enter the following command to fetch a single URL and print its
+    metrics:
+
+    ```sh
+    node src/metrics.js https://www.example.com/
+    ```
+
+    This script also accepts multiple URL arguments like this:
+
+    ```sh
+    node src/metrics.js https://www.example.com/ https://www.example.org/
+    ```
+
+ 7. Now open [`index.html`] using a web browser to see the output.
 
 
 Commit Guidelines
