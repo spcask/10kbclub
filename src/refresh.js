@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const phantomas = require('phantomas')
 const urls = require('./urls')
 const metrics = require('./metrics')
 

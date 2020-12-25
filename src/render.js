@@ -40,6 +40,8 @@ function main () {
   const metricsTime = urlMetrics.metricsTime
   const date = metricsTime.substring(0, 16)
   const time = metricsTime.substring(17, 22) + metricsTime.substring(25)
+  console.log('date:', date)
+  console.log('time:', time)
 
   const templatePath = path.join(__dirname, 'template.html')
   const template = fs.readFileSync(templatePath, 'utf8')

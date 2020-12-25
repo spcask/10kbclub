@@ -34,16 +34,16 @@ async function fetchURL (url) {
   }
 }
 
-function textSummary(urlMetrics) {
+function textSummary (urlMetrics) {
   return [
     (urlMetrics.totalSize / 1024).toFixed(1) + ' KB',
     (urlMetrics.contentSize / 1024).toFixed(1) + ' KB',
-    contentRatio = urlMetrics.contentRatio.toFixed(0) + '%'
+    urlMetrics.contentRatio.toFixed(0) + '%'
   ]
 }
 
-function htmlSummary(urlMetrics) {
-  let [totalKB, contentKB, contentRatio] = textSummary(urlMetrics)
+function htmlSummary (urlMetrics) {
+  const [totalKB, contentKB, contentRatio] = textSummary(urlMetrics)
   return [
     totalKB.replace(' ', '&nbsp;'),
     contentKB.replace(' ', '&nbsp;'),
@@ -51,7 +51,7 @@ function htmlSummary(urlMetrics) {
   ]
 }
 
-async function main() {
+async function main () {
   const args = process.argv.slice(2)
   for (const arg of args) {
     const urlMetrics = await fetchURL(arg)
