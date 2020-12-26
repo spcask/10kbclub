@@ -63,7 +63,7 @@ To build and develop this project locally, perform the following steps:
     ```
 
  4. Enter the following command to generate a `metrics.json` file with
-    metrics data for each URL specified in [`js/urls.js`]:
+    metrics data for each URL specified in [`js/urls.json`]:
 
     ```sh
     node src/refresh.js
@@ -110,7 +110,7 @@ The following guidelines are followed in the commits made manually:
  3. Commit messages are written as per the guidelines in this document:
     [Writing Good Commit Messages][commit-conventions].
 
-[`js/urls.js`]: js/urls.js
+[`js/urls.json`]: js/urls.json
 [`index.html`]: index.html
 [commit-conventions]: https://github.com/erlang/otp/wiki/Writing-good-commit-messages
 
