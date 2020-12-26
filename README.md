@@ -131,6 +131,10 @@ understanding this project.
     https://github.com/susam/10kbclub/actions for the previous
     executions of the workflow.
 
+ 3. The links to discussion threads in [`js/urls.json`] are not
+    exhaustive. Only the 5 earliest discussion threads that have
+    100 points or more have been picked from each forum.
+
 [gh-pages]: https://pages.github.com/
 [`publish.yml`]: .github/workflows/publish.yml
 [actions]: https://github.com/susam/10kbclub/actions
