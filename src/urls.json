@@ -1,0 +1,320 @@
+[
+  {
+    "url": "http://akkartik.name/",
+    "discussions": [
+      {
+        "date": "2017-11-11",
+        "title": "The cargo cult of versioning",
+        "url": "https://news.ycombinator.com/item?id=15676691",
+        "points": 198
+      },
+      {
+        "date": "2018-02-27",
+        "title": "Nobody's just reading your code",
+        "url": "https://news.ycombinator.com/item?id=16471161",
+        "points": 352
+      },
+      {
+        "date": "2019-10-18",
+        "title": "Mu: A minimal hobbyist computing stack",
+        "url": "https://news.ycombinator.com/item?id=21268252",
+        "points": 105
+      },
+      {
+        "date": "2019-11-22",
+        "title": "Mu: Sketching out a minimal system programming language",
+        "url": "https://news.ycombinator.com/item?id=21604685",
+        "points": 102
+      },
+      {
+        "date": "2020-09-17",
+        "title": "Bicycles for the mind have to be see-through",
+        "url": "https://news.ycombinator.com/item?id=22599953",
+        "points": 210
+      }
+    ]
+  },
+  {
+    "url": "http://cat-v.org/",
+    "discussions": [
+      {
+        "date": "2007-06-29",
+        "title": "The amazing Duff’s Device by Tom Duff!",
+        "url": "https://www.reddit.com/r/programming/comments/225xe",
+        "points": 199
+      },
+      {
+        "date": "2009-04-24",
+        "title": "The history of UTF-8 as told by Rob Pike",
+        "url": "https://www.reddit.com/r/programming/comments/8f05r",
+        "points": 233
+      },
+      {
+        "date": "2009-06-20",
+        "title": "S-exp vs XML, by Erik Naggum",
+        "url": "https://www.reddit.com/r/programming/comments/8u72o",
+        "points": 266
+      },
+      {
+        "date": "2009-07-04",
+        "title": "Programming Quotes",
+        "url": "https://www.reddit.com/r/programming/comments/8y348",
+        "points": 637
+      },
+      {
+        "date": "2009-08-24",
+        "title": "The Origin of Unix Pipes",
+        "url": "https://www.reddit.com/r/programming/comments/9djot",
+        "points": 147
+      },
+      {
+        "date": "2011-01-07",
+        "title": "SOAP: The 'S' stands for simple (not really)",
+        "url": "https://news.ycombinator.com/item?id=2079631",
+        "points": 246
+      },
+      {
+        "date": "2011-01-07",
+        "title": "SOAP: The 'S' stands for simple (not really)",
+        "url": "https://news.ycombinator.com/item?id=2079631",
+        "points": 246
+      },
+      {
+        "date": "2011-03-01",
+        "title": "The Origin of Unix Pipes",
+        "url": "https://news.ycombinator.com/item?id=2275161",
+        "points": 133
+      },
+      {
+        "date": "2011-05-01",
+        "title": "The Basic Laws of Human Stupidity ",
+        "url": "https://news.ycombinator.com/item?id=2570448",
+        "points": 120
+      },
+      {
+        "date": "2011-07-03",
+        "title": "The 'intellectual property' oxymoron",
+        "url": "https://news.ycombinator.com/item?id=2723505",
+        "points": 115
+      },
+      {
+        "date": "2011-07-17",
+        "title": "Plan9 has been forked: 9front",
+        "url": "https://news.ycombinator.com/item?id=2772718",
+        "points": 150
+      }
+    ]
+  },
+  {
+    "url": "http://neverssl.com/",
+    "discussions": [
+      {
+        "date": "2017-01-10",
+        "title": "NeverSSL",
+        "url": "https://news.ycombinator.com/item?id=13369038",
+        "points": 307
+      },
+      {
+        "date": "2019-11-02",
+        "title": "NeverSSL",
+        "url": "https://news.ycombinator.com/item?id=21430157",
+        "points": 346
+      }
+    ]
+  },
+  {
+    "url": "https://1mb.club/",
+    "discussions": [
+      {
+        "date": "2020-11-19",
+        "title": "1MB Club",
+        "url": "https://news.ycombinator.com/item?id=25151773",
+        "points": 965
+      }
+    ]
+  },
+  {
+    "url": "https://10kbclub.com/",
+    "discussions": [
+      {
+        "date": "2020-12-26",
+        "title": "10 KB Club",
+        "url": "https://www.reddit.com/r/webdev/comments/kkcoko",
+        "points": 210
+      }
+    ]
+  },
+  {
+    "url": "https://augustl.com/",
+    "discussions": [
+      {
+        "date": "2013-04-20",
+        "title": "Truly concurrent user interfaces",
+        "url": "https://www.reddit.com/r/programming/comments/1crm00",
+        "points": 105
+      },
+      {
+        "date": "2014-07-08",
+        "title": "That WoW server blade",
+        "url": "https://www.reddit.com/r/wow/comments/2cyu9d",
+        "points": 192
+      },
+      {
+        "date": "2019-12-05",
+        "title": "Linux exists only because of a happy accident",
+        "url": "https://www.reddit.com/r/linux/comments/e6fvj0",
+        "points": 965
+      },
+      {
+        "date": "2019-12-18",
+        "title": "The #1 bug predictor is not technical",
+        "url": "https://www.reddit.com/r/programming/comments/ec9s2o",
+        "points": 319
+      },
+      {
+        "date": "2013-07-22",
+        "title": "ZeroMQ instead of HTTP, for internal services",
+        "url": "https://news.ycombinator.com/item?id=6086983",
+        "points": 206
+      },
+      {
+        "date": "2014-02-02",
+        "title": "An immutable operating system",
+        "url": "https://news.ycombinator.com/item?id=7166173",
+        "points": 286
+      },
+      {
+        "date": "2014-03-22",
+        "title": "JDK8 + Facebook React",
+        "url": "https://news.ycombinator.com/item?id=7449262",
+        "points": 118
+      },
+      {
+        "date": "2014-08-08",
+        "title": "That WoW server blade",
+        "url": "https://news.ycombinator.com/item?id=8153781",
+        "points": 104
+      },
+      {
+        "date": "2018-04-21",
+        "title": "Datomic: Look at all the things I'm not doing",
+        "url": "https://news.ycombinator.com/item?id=16889789",
+        "points": 138
+      }
+    ]
+  },
+  {
+    "url": "https://john-doe.neocities.org",
+    "discussions": [
+      {
+        "date": "2020-11-21",
+        "title": "Show HN: A simple way to make HTML websites",
+        "url": "https://news.ycombinator.com/item?id=25170078",
+        "points": 200
+      }
+    ]
+  },
+  {
+    "url": "https://kerkour.fr/",
+    "discussions": [
+      {
+        "date": "2019-06-05",
+        "title": "Show HN: Bloom – A free and open source 'Google'",
+        "url": "https://news.ycombinator.com/item?id=20105567",
+        "points": 747
+      }
+    ]
+  },
+  {
+    "url": "https://plumebio.com/",
+    "discussions": [
+      {
+        "date": "2020-08-01",
+        "title": "Show HN: JavaScript-free personal bio hosting",
+        "url": "https://news.ycombinator.com/item?id=24019540",
+        "points": 123
+      }
+    ]
+  },
+  {
+    "url": "https://sdf.org/",
+    "discussions": [
+      {
+        "date": "2015-03-23",
+        "title": "Why Are My Page_faults So High in Perf?",
+        "url": "https://www.reddit.com/r/programming/comments/301cpl",
+        "points": 108
+      },
+      {
+        "date": "2019-11-28",
+        "title": "gccemacs",
+        "url": "https://www.reddit.com/r/emacs/comments/e2vzu7",
+        "points": 132
+      },
+      {
+        "date": "2013-05-01",
+        "title": "This page is anonymous",
+        "url": "https://news.ycombinator.com/item?id=5638988",
+        "points": 450
+      },
+      {
+        "date": "2014-03-18",
+        "title": "iOS 7.1 Mobile Safari Minimal UI",
+        "url": "https://news.ycombinator.com/item?id=7424814",
+        "points": 151
+      },
+      {
+        "date": "2016-08-24",
+        "title": "Dinosaur and Lisp",
+        "url": "https://news.ycombinator.com/item?id=12351187",
+        "points": 237
+      },
+      {
+        "date": "2016-08-24",
+        "title": "SDF – Public Access Unix System",
+        "url": "https://news.ycombinator.com/item?id=14134798",
+        "points": 194
+      },
+      {
+        "date": "2018-08-26",
+        "title": "From GNU social to Mastodon",
+        "url": "https://news.ycombinator.com/item?id=17844587",
+        "points": 186
+      }
+    ]
+  },
+  {
+    "url": "https://sjmulder.nl/",
+    "discussions": [
+      {
+        "date": "2020-06-24",
+        "title": "Text-Only Websites",
+        "url": "https://news.ycombinator.com/item?id=23626929",
+        "points": 302
+      }
+    ]
+  },
+  {
+    "url": "https://susam.in/",
+    "discussions": [
+      {
+        "date": "2011-05-18",
+        "title": "Sequence Points",
+        "url": "https://www.reddit.com/r/programming/comments/he7c7",
+        "points": 132
+      },
+      {
+        "date": "2020-02-02",
+        "title": "Global Palindrome Day",
+        "url": "https://www.reddit.com/r/programming/comments/exjhfc",
+        "points": 173
+      },
+      {
+        "date": "2019-12-04",
+        "title": "Sinkholed",
+        "url": "https://news.ycombinator.com/item?id=21700139",
+        "points": 616
+      }
+    ]
+  }
+]

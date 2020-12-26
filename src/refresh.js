@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const urls = require('./urls')
 const metrics = require('./metrics')
 
 async function refreshMetrics (urlList) {
@@ -29,7 +28,9 @@ function writeMetrics (metricsList) {
 }
 
 async function main () {
-  const urlList = urls.map(item => item.url)
+  const urlPath = path.join(__dirname, 'urls.json')
+  const urlData = JSON.parse(fs.readFileSync(urlPath, 'utf8'))
+  const urlList = urlData.map(item => item.url)
   const metricsList = await refreshMetrics(urlList)
   writeMetrics(metricsList)
 }

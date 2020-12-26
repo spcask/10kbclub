@@ -77,8 +77,8 @@ href="https://github.com/susam/10kbclub">this GitHub repository</a>.
 <p>
 The following websites are members of the 10 KB Club. Click anywhere on
 a row (except on the website name) to see links to a few interesting
-Hacker News discussions on links belonging to the website. To suggest a
-new website to be added to this list, see the <a
+Hacker News and Reddit discussions on links belonging to the website. To
+suggest a new website to be added to this list, see the <a
 href="#new-membership">New Membership</a> section.
 </p>
 <table>
@@ -89,7 +89,7 @@ href="#new-membership">New Membership</a> section.
     <th class="content">Content Size</th>
     <th class="ratio">Content Ratio</th>
   </tr>
-${htmlRows}</table>
+${rowsHTML}</table>
 <p>
 The data in the table above was fetched on ${date} at ${time}. This data
 is refreshed automatically every Saturday at 01:09 UTC as well as on
@@ -160,12 +160,15 @@ to its home page. The URL must satisfy the following rules:
       website must have received at least 100 points on <a
       href="https://news.ycombinator.com/">Hacker News</a> or <a
       href="https://www.reddit.com/">Reddit</a> on at least
-      one occasion. Use the following URL to check submissions for a
-      website on Hacker News and the votes each submission has received:
+      one occasion. Use
       <a href="https://news.ycombinator.com/from?site=example.com">https://news.ycombinator.com/from?site=example.com</a>
-      (replace "example.com" with the domain of the website). Whether a
-      website is noteworthy or not will be decided on a case by case
-      basis.
+      and
+      <a
+      href="https://www.reddit.com/search/?q=site%3Aexample.com&sort=top">https://www.reddit.com/search/?q=site%3Aexample.com&sort=top</a>
+      to check submissions for a website on Hacker News and Reddit,
+      respctively (replace "example.com" with the domain of the
+      website). Whether a website is noteworthy or not will be decided
+      on a case by case basis.
     </p>
   </li>
 </ol>

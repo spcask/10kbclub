@@ -1,14 +1,40 @@
 const fs = require('fs')
 const path = require('path')
-const urls = require('./urls')
 const metrics = require('./metrics')
 
-function htmlRow (rank, urlMetrics, info) {
+function makeDiscussionHTML (discussions) {
+  let html = `
+    <p>
+      See the following discussions on content from this website:
+    </p>
+    <ul>
+`
+  for (const d of discussions) {
+    let where
+    let points
+    if (d.url.startsWith('https://news.ycombinator.com/')) {
+      where = 'HN'
+      points = d.points
+    } else if (d.url.startsWith('https://www.reddit.com/')) {
+      where = 'r/' + d.url.split('/')[4]
+      points = `&approx; ${d.points}`
+    }
+    html += `<li>
+      <a href="${d.url}">${d.title}</a>
+      (${points} points on ${where})
+    </li>`
+  }
+  html += '</ul>'
+  return html
+}
+
+function makeRowHTML (rank, urlMetrics, discussions) {
   const url = urlMetrics.url
   const website = url.replace(/^https?:\/\//, '').replace(/\/$/, '')
   const totalSize = urlMetrics.totalSize
   const contentSize = urlMetrics.contentSize
   const [totalKB, contentKB, contentRatio] = metrics.htmlSummary(urlMetrics)
+  const discussionHTML = makeDiscussionHTML(discussions)
   return `  <tr class="data" id="data${rank}">
     <td class="rank">${rank}.</td>
     <td class="url"><a href="${url}" id="url${rank}">${website}</a></td>
@@ -18,24 +44,27 @@ function htmlRow (rank, urlMetrics, info) {
   </tr>
   <tr class="info" id="info${rank}">
     <td colspan="5">
-      ${info}
+      ${discussionHTML}
     </td>
   </tr>\n`
 }
 
 function main () {
-  const metricsPath = path.join(__dirname, '..', 'metrics.json')
-  const urlMetrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
   const urlMap = {}
-  for (const urlItem of urls) {
+  const urlPath = path.join(__dirname, 'urls.json')
+  const urlData = JSON.parse(fs.readFileSync(urlPath, 'utf8'))
+  for (const urlItem of urlData) {
     urlMap[urlItem.url] = urlItem
   }
 
-  let htmlRows = ''
+  const metricsPath = path.join(__dirname, '..', 'metrics.json')
+  const urlMetrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
+
+  let rowsHTML = ''
   for (const [i, m] of urlMetrics.metricsList.entries()) {
-    htmlRows += htmlRow(i + 1, m, urlMap[m.url].info.trim())
+    rowsHTML += makeRowHTML(i + 1, m, urlMap[m.url].discussions)
   }
-  console.log('htmlRows:\n', htmlRows)
+  console.log('rowsHTML:\n', rowsHTML)
 
   const metricsTime = urlMetrics.metricsTime
   const date = metricsTime.substring(0, 16)
