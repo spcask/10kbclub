@@ -104,7 +104,7 @@ The following guidelines are followed in the commits made manually:
  2. The following command should pass without errors:
 
     ```sh
-    npm run lint
+    make render
     ```
 
  3. Commit messages are written as per the guidelines in this document:

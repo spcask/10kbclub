@@ -123,6 +123,23 @@
     ]
   },
   {
+    "url": "https://10kbclub.com/",
+    "discussions": [
+      {
+        "date": "2020-12-26",
+        "title": "10 KB Club",
+        "url": "https://www.reddit.com/r/webdev/comments/kkcoko",
+        "points": 590
+      },
+      {
+        "date": "2020-12-28",
+        "title": "10 KB Club",
+        "url": "https://news.ycombinator.com/item?id=25556860",
+        "points": 107
+      }
+    ]
+  },
+  {
     "url": "https://1mb.club/",
     "discussions": [
       {
@@ -134,25 +151,8 @@
     ]
   },
   {
-    "url": "https://10kbclub.com/",
-    "discussions": [
-      {
-        "date": "2020-12-26",
-        "title": "10 KB Club",
-        "url": "https://www.reddit.com/r/webdev/comments/kkcoko",
-        "points": 590
-      }
-    ]
-  },
-  {
     "url": "https://augustl.com/",
     "discussions": [
-      {
-        "date": "2019-12-18",
-        "title": "The #1 bug predictor is not technical",
-        "url": "https://lobste.rs/s/eldbnr",
-        "points": 61
-      },
       {
         "date": "2013-04-20",
         "title": "Truly concurrent user interfaces",
@@ -206,6 +206,12 @@
         "title": "Datomic: Look at all the things I'm not doing",
         "url": "https://news.ycombinator.com/item?id=16889789",
         "points": 138
+      },
+      {
+        "date": "2019-12-18",
+        "title": "The #1 bug predictor is not technical",
+        "url": "https://lobste.rs/s/eldbnr",
+        "points": 61
       }
     ]
   },
@@ -230,12 +236,6 @@
     "url": "https://jlelse.blog/",
     "discussions": [
       {
-        "date": "2020-07-20",
-        "title": "Why I no longer host my emails myself",
-        "url": "https://lobste.rs/s/wz3px4",
-        "points": 46
-      },
-      {
         "date": "2019-12-15",
         "title": "Google is not a search engine, but an ad engine",
         "url": "https://www.reddit.com/r/privacy/comments/eb126i",
@@ -246,6 +246,12 @@
         "title": "Why is the market share of Firefox in Germany so much higher?",
         "url": "https://www.reddit.com/r/firefox/comments/k35552",
         "points": 333
+      },
+      {
+        "date": "2020-07-20",
+        "title": "Why I no longer host my emails myself",
+        "url": "https://lobste.rs/s/wz3px4",
+        "points": 46
       }
     ]
   },

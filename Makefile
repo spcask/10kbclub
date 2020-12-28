@@ -1,5 +1,6 @@
 render:
 	time -p npm run lint
+	time -p node src/checks.js
 	time -p node src/refresh.js
 	time -p node src/render.js
 
@@ -8,7 +9,7 @@ setup:
 	uname | grep Linux && sudo apt-get install nodejs; :
 	npm install
 
-publish: render
+publish:
 	git config user.name "10kbclub"
 	git config user.email "10kbclub@localhost"
 	git add index.html
