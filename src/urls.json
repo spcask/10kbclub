@@ -148,6 +148,12 @@
     "url": "https://augustl.com/",
     "discussions": [
       {
+        "date": "2019-12-18",
+        "title": "The #1 bug predictor is not technical",
+        "url": "https://lobste.rs/s/eldbnr",
+        "points": 61
+      },
+      {
         "date": "2013-04-20",
         "title": "Truly concurrent user interfaces",
         "url": "https://www.reddit.com/r/programming/comments/1crm00",
