@@ -233,6 +233,17 @@
     ]
   },
   {
+    "url": "https://cedaei.com/",
+    "discussions": [
+      {
+        "date": "2020-08-26",
+        "title": "Vim-Like Layer for Xorg and Wayland ",
+        "url": "https://news.ycombinator.com/item?id=24280413",
+        "points": 148
+      }
+    ]
+  },
+  {
     "url": "https://jlelse.blog/",
     "discussions": [
       {
