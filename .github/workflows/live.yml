@@ -1,4 +1,4 @@
-name: Rebuild website and publish
+name: Rebuild website and make it live
 
 on:
   push:
@@ -13,4 +13,4 @@ jobs:
       - run: date; pwd; ls -l
       - run: make setup
       - run: make render
-      - run: make publish
+      - run: make live

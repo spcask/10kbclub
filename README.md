@@ -127,7 +127,7 @@ understanding this project.
 
  2. The file [`index.html`] gets updated automatically once a day at
     00:00:00 UTC as well as on every push via GitHub Actions. See
-    [`publish.yml`] for the GitHub Actions workflow. See
+    [`live.yml`] for the GitHub Actions workflow. See
     https://github.com/susam/10kbclub/actions for the previous
     executions of the workflow.
 
@@ -136,7 +136,7 @@ understanding this project.
     100 points or more have been picked from each forum.
 
 [gh-pages]: https://pages.github.com/
-[`publish.yml`]: .github/workflows/publish.yml
+[`live.yml`]: .github/workflows/live.yml
 [actions]: https://github.com/susam/10kbclub/actions
 
 
