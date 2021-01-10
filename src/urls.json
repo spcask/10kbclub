@@ -414,6 +414,77 @@
     ]
   },
   {
+    "url": "https://zserge.com/",
+    "discussions": [
+      {
+        "date": "2012-10-25",
+        "title": "CUCU: A compiler you can understand",
+        "url": "https://www.reddit.com/r/programming/comments/12253z",
+        "points": 130
+      },
+      {
+        "date": "2017-07-19",
+        "title": "Syntactic sugar in C - (ab)using \"for\" loops",
+        "url": "https://www.reddit.com/r/programming/comments/6obyqb",
+        "points": 200
+      },
+      {
+        "date": "2020-04-28",
+        "title": "Tmux for mere mortals",
+        "url": "https://www.reddit.com/r/commandline/comments/g9k4sz",
+        "points": 110
+      },
+      {
+        "date": "2020-06-02",
+        "title": "How to write a (toy) JVM",
+        "url": "https://www.reddit.com/r/java/comments/gv3l2g",
+        "points": 150
+      },
+      {
+        "date": "2020-10-12",
+        "title": "World smallest office suite",
+        "url": "https://www.reddit.com/r/webdev/comments/j9o6yq",
+        "points": 150
+      },
+      {
+        "date": "2017-02-17",
+        "title": "Partcl - a tiny command language",
+        "url": "https://news.ycombinator.com/item?id=13592645",
+        "points": 114
+      },
+      {
+        "date": "2020-04-10",
+        "title": "Ode to J",
+        "url": "https://news.ycombinator.com/item?id=22831931",
+        "points": 85
+      },
+      {
+        "date": "2020-04-28",
+        "title": "Tmux for mere mortals",
+        "url": "https://news.ycombinator.com/item?id=23003603",
+        "points": 586
+      },
+      {
+        "date": "2020-05-13",
+        "title": "Linux containers in a few lines of code",
+        "url": "https://news.ycombinator.com/item?id=23165157",
+        "points": 458
+      },
+      {
+        "date": "2020-05-20",
+        "title": "KVM host in a few lines of code",
+        "url": "https://news.ycombinator.com/item?id=23244709",
+        "points": 158
+      },
+      {
+        "date": "2020-10-12",
+        "title": "World smallest office suite",
+        "url": "https://lobste.rs/s/grpc1b",
+        "points": 74
+      }
+    ]
+  },
+  {
     "url": "https://zupzup.org/",
     "discussions": [
       {
