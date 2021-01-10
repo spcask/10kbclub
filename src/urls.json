@@ -41,31 +41,31 @@
         "date": "2007-06-29",
         "title": "The amazing Duff’s Device by Tom Duff!",
         "url": "https://www.reddit.com/r/programming/comments/225xe",
-        "points": 199
+        "points": 190
       },
       {
         "date": "2009-04-24",
         "title": "The history of UTF-8 as told by Rob Pike",
         "url": "https://www.reddit.com/r/programming/comments/8f05r",
-        "points": 233
+        "points": 230
       },
       {
         "date": "2009-06-20",
         "title": "S-exp vs XML, by Erik Naggum",
         "url": "https://www.reddit.com/r/programming/comments/8u72o",
-        "points": 266
+        "points": 260
       },
       {
         "date": "2009-07-04",
         "title": "Programming Quotes",
         "url": "https://www.reddit.com/r/programming/comments/8y348",
-        "points": 637
+        "points": 630
       },
       {
         "date": "2009-08-24",
         "title": "The Origin of Unix Pipes",
         "url": "https://www.reddit.com/r/programming/comments/9djot",
-        "points": 147
+        "points": 140
       },
       {
         "date": "2011-01-07",
@@ -112,7 +112,7 @@
         "date": "2021-01-07",
         "title": "Starter kit for lightweight sites",
         "url": "https://www.reddit.com/r/programming/comments/krooqi",
-        "points": "500"
+        "points": "1100"
       }
     ]
   },
@@ -146,7 +146,7 @@
         "date": "2020-12-28",
         "title": "10 KB Club",
         "url": "https://news.ycombinator.com/item?id=25556860",
-        "points": 107
+        "points": 123
       }
     ]
   },
@@ -168,25 +168,25 @@
         "date": "2013-04-20",
         "title": "Truly concurrent user interfaces",
         "url": "https://www.reddit.com/r/programming/comments/1crm00",
-        "points": 105
+        "points": 100
       },
       {
         "date": "2014-07-08",
         "title": "That WoW server blade",
         "url": "https://www.reddit.com/r/wow/comments/2cyu9d",
-        "points": 192
+        "points": 190
       },
       {
         "date": "2019-12-05",
         "title": "Linux exists only because of a happy accident",
         "url": "https://www.reddit.com/r/linux/comments/e6fvj0",
-        "points": 965
+        "points": 960
       },
       {
         "date": "2019-12-18",
         "title": "The #1 bug predictor is not technical",
         "url": "https://www.reddit.com/r/programming/comments/ec9s2o",
-        "points": 319
+        "points": 320
       },
       {
         "date": "2013-07-22",
@@ -233,13 +233,13 @@
         "date": "2017-10-31",
         "title": "Monero mining malware sneaking into Android apps",
         "url": "https://www.reddit.com/r/Android/comments/79uv4p",
-        "points": 132
+        "points": 130
       },
       {
         "date": "2020-05-09",
         "title": "Verschwörungstheorien in Kombination zu betrachten (German)",
         "url": "https://www.reddit.com/r/de/comments/ggd5v2",
-        "points": 232
+        "points": 230
       }
     ]
   },
@@ -267,7 +267,7 @@
         "date": "2020-11-29",
         "title": "Why is the market share of Firefox in Germany so much higher?",
         "url": "https://www.reddit.com/r/firefox/comments/k35552",
-        "points": 333
+        "points": 330
       },
       {
         "date": "2020-07-20",
@@ -306,7 +306,7 @@
         "date": "2020-11-29",
         "title": "State Of Linux Usability 2020",
         "url": "https://www.reddit.com/r/linux/comments/k353y7",
-        "points": 95
+        "points": 90
       }
     ]
   },
@@ -328,13 +328,13 @@
         "date": "2015-03-23",
         "title": "Why Are My Page_faults So High in Perf?",
         "url": "https://www.reddit.com/r/programming/comments/301cpl",
-        "points": 108
+        "points": 100
       },
       {
         "date": "2019-11-28",
         "title": "gccemacs",
         "url": "https://www.reddit.com/r/emacs/comments/e2vzu7",
-        "points": 132
+        "points": 130
       },
       {
         "date": "2013-05-01",
@@ -397,13 +397,13 @@
         "date": "2011-05-18",
         "title": "Sequence Points",
         "url": "https://www.reddit.com/r/programming/comments/he7c7",
-        "points": 132
+        "points": 130
       },
       {
         "date": "2020-02-02",
         "title": "Global Palindrome Day",
         "url": "https://www.reddit.com/r/programming/comments/exjhfc",
-        "points": 173
+        "points": 170
       },
       {
         "date": "2019-12-04",
@@ -491,7 +491,7 @@
         "date": "2019-04-07",
         "title": "A Basic Web Application with Rust and Actix-web",
         "url": "https://www.reddit.com/r/rust/comments/balhup",
-        "points": 133
+        "points": 130
       }
     ]
   }
