@@ -222,12 +222,6 @@
         "title": "Datomic: Look at all the things I'm not doing",
         "url": "https://news.ycombinator.com/item?id=16889789",
         "points": 138
-      },
-      {
-        "date": "2019-12-18",
-        "title": "The #1 bug predictor is not technical",
-        "url": "https://lobste.rs/s/eldbnr",
-        "points": 61
       }
     ]
   },
@@ -273,12 +267,6 @@
         "title": "Why is the market share of Firefox in Germany so much higher?",
         "url": "https://www.reddit.com/r/firefox/comments/k35552",
         "points": 330
-      },
-      {
-        "date": "2020-07-20",
-        "title": "Why I no longer host my emails myself",
-        "url": "https://lobste.rs/s/wz3px4",
-        "points": 46
       }
     ]
   },
@@ -377,10 +365,10 @@
     "url": "https://seirdy.one",
     "discussions": [
       {
-        "date": "2020-06-24",
-        "title": "An opinionated list of best practices for textual websites",
-        "url": "https://lobste.rs/s/akcw1m",
-        "points": 43
+        "date": "2021-03-21",
+        "title": "A look at search engines with their own indexes",
+        "url": "https://www.reddit.com/r/degoogle/comments/m9hesi",
+        "points": 160
       }
     ]
   },
@@ -421,12 +409,6 @@
   {
     "url": "https://www.paritybit.ca/",
     "discussions": [
-      {
-        "date": "2020-08-30",
-        "title": "Why IRC is Still Good in $CURRENT_YEAR",
-        "url": "https://lobste.rs/s/rzesjq",
-        "points": 61
-      }
     ]
   },
   {
@@ -491,12 +473,6 @@
         "title": "KVM host in a few lines of code",
         "url": "https://news.ycombinator.com/item?id=23244709",
         "points": 158
-      },
-      {
-        "date": "2020-10-12",
-        "title": "World smallest office suite",
-        "url": "https://lobste.rs/s/grpc1b",
-        "points": 74
       }
     ]
   },

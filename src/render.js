@@ -18,9 +18,6 @@ function makeDiscussionHTML (discussions) {
     } else if (d.url.startsWith('https://www.reddit.com/')) {
       where = 'r/' + d.url.split('/')[4]
       points = `&approx; ${d.points}`
-    } else if (d.url.startsWith('https://lobste.rs/')) {
-      where = 'Lobsters'
-      points = d.points
     }
     html += `<li>
       <a href="${d.url}">${d.title}</a>
