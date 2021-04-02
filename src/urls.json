@@ -35,17 +35,6 @@
     ]
   },
   {
-    "url": "https://box.matto.nl/",
-    "discussions": [
-      {
-        "date": "2019-02-16",
-        "title": "We Must Revive Gopher",
-        "url": "https://news.ycombinator.com/item?id=19178885",
-        "points": 230
-      }
-    ]
-  },
-  {
     "url": "http://cat-v.org/",
     "discussions": [
       {
@@ -107,17 +96,6 @@
         "title": "Plan9 has been forked: 9front",
         "url": "https://news.ycombinator.com/item?id=2772718",
         "points": 150
-      }
-    ]
-  },
-  {
-    "url": "https://minwiz.com/",
-    "discussions": [
-      {
-        "date": "2021-01-07",
-        "title": "Starter kit for lightweight sites",
-        "url": "https://www.reddit.com/r/programming/comments/krooqi",
-        "points": "1100"
       }
     ]
   },
@@ -243,6 +221,17 @@
     ]
   },
   {
+    "url": "https://box.matto.nl/",
+    "discussions": [
+      {
+        "date": "2019-02-16",
+        "title": "We Must Revive Gopher",
+        "url": "https://news.ycombinator.com/item?id=19178885",
+        "points": 230
+      }
+    ]
+  },
+  {
     "url": "https://cedaei.com/",
     "discussions": [
       {
@@ -300,6 +289,17 @@
         "title": "State Of Linux Usability 2020",
         "url": "https://www.reddit.com/r/linux/comments/k353y7",
         "points": 90
+      }
+    ]
+  },
+  {
+    "url": "https://minwiz.com/",
+    "discussions": [
+      {
+        "date": "2021-01-07",
+        "title": "Starter kit for lightweight sites",
+        "url": "https://www.reddit.com/r/programming/comments/krooqi",
+        "points": "1100"
       }
     ]
   },
