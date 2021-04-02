@@ -62,7 +62,7 @@ function main () {
 
   let rowsHTML = ''
   for (const [i, m] of urlMetrics.metricsList.entries()) {
-    if (urlMap[m.url].discussions.length == 0) {
+    if (urlMap[m.url].discussions.length === 0) {
       continue
     }
     rowsHTML += makeRowHTML(i + 1, m, urlMap[m.url].discussions)
