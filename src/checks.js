@@ -6,6 +6,8 @@ function forumPriority (forumURL) {
     return 1
   } else if (forumURL.startsWith('https://news.ycombinator.com/')) {
     return 2
+  } else if (forumURL.startsWith('https://lobste.rs/')) {
+    return 2
   } else {
     return -1
   }
