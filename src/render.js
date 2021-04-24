@@ -18,6 +18,9 @@ function makeDiscussionHTML (discussions) {
     } else if (d.url.startsWith('https://www.reddit.com/')) {
       where = 'r/' + d.url.split('/')[4]
       points = `&approx; ${d.points}`
+    } else if (d.url.startsWith('https://lobste.rs/')) {
+      where = 'Lobsters'
+      points = d.points
     }
     html += `<li>
       <a href="${d.url}">${d.title}</a>
@@ -62,9 +65,6 @@ function main () {
 
   let rowsHTML = ''
   for (const [i, m] of urlMetrics.metricsList.entries()) {
-    if (urlMap[m.url].discussions.length === 0) {
-      continue
-    }
     rowsHTML += makeRowHTML(i + 1, m, urlMap[m.url].discussions)
   }
   console.log('rowsHTML:\n', rowsHTML)
