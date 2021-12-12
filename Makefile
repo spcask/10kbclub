@@ -6,6 +6,9 @@ render:
 	cp src/favicon.png .
 	cp src/CNAME .
 
+checks:
+	node src/checks.js
+
 setup:
 	uname | grep Darwin && brew install node; :
 	uname | grep Linux && sudo apt-get install nodejs; :
