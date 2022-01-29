@@ -406,7 +406,7 @@
     ]
   },
   {
-    "url": "https://susam.in/",
+    "url": "https://susam.net/",
     "discussions": [
       {
         "date": "2011-05-18",
@@ -437,6 +437,12 @@
         "title": "Non-Commercial Licenses Are Non-Free Licenses",
         "url": "https://news.ycombinator.com/item?id=28366305",
         "points": 105
+      },
+      {
+	"date": "2022-01-09",
+	"title": "Simplicity of IRC",
+	"url": "https://news.ycombinator.com/item?id=29862550",
+	"points": 364
       }
     ]
   },
