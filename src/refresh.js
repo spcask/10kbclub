@@ -6,12 +6,18 @@ async function refreshMetrics (urlList) {
   const metricsList = []
   for (const [index, url] of urlList.entries()) {
     console.log('Fetching URL', (index + 1), 'of', urlList.length)
-    const urlMetrics = await metrics.fetchURL(url)
-    if (urlMetrics.totalSize <= 10240) {
-      metricsList.push(urlMetrics)
-    } else {
+    let urlMetrics
+    try {
+      urlMetrics = await metrics.fetchURL(url)
+    } catch (e) {
+      console.log('Error while fetching:', e)
+      console.log('Ignoring', url, 'due to error\n')
+      continue
+    }
+    if (urlMetrics.totalSize > 10240) {
       console.log('Ignoring', url, 'because totalSize is too large\n')
     }
+    metricsList.push(urlMetrics)
   }
   return metricsList.sort((a, b) => a.totalSize - b.totalSize)
 }
