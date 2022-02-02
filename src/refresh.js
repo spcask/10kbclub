@@ -16,6 +16,7 @@ async function refreshMetrics (urlList) {
     }
     if (urlMetrics.totalSize > 10240) {
       console.log('Ignoring', url, 'because totalSize is too large\n')
+      continue
     }
     metricsList.push(urlMetrics)
   }
