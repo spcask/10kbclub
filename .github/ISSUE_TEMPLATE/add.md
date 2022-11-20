@@ -14,6 +14,6 @@ assignees: ''
 
 (Replace this line with your answer.)
 
-**Provide a link to a discussion on Reddit or Hacker News where your website received at least 100 upvotes.**
+**Provide a link to a discussion on Reddit or Hacker News where some content from your website received at least 100 upvotes.**
 
 (Replace this line with one or more links.)
