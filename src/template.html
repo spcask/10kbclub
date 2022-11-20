@@ -51,11 +51,13 @@ window.onload = function () {
       var rank = i
       var dataRow = document.getElementById('data' + rank)
       var infoRow = document.getElementById('info' + rank)
-      dataRow.onclick = function () {
-        if (infoRow.style.display === '') {
-          infoRow.style.display = 'table-row'
-        } else {
-          infoRow.style.display = ''
+      dataRow.onclick = function (e) {
+        if (e.target.nodeName.toLowerCase() !== 'a') {
+          if (infoRow.style.display === '') {
+            infoRow.style.display = 'table-row'
+          } else {
+            infoRow.style.display = ''
+          }
         }
       }
     })()
