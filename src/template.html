@@ -9,13 +9,14 @@
 <style>
 body {color: #333; font-family: helvetica, arial, sans-serif;
       line-height: 1.5; margin: 0 auto; max-width: 40em; padding: 0 1em}
-h1, h2 {margin: 1em 0 0.5em 0; line-height: 1.2em}
+h1, h2 {margin: 1.25em 0 0.5em 0; line-height: 1.2}
 h2 a:empty:before {content: "#"}
 h2 a:empty {visibility: hidden; padding-left: 0.25em}
 h2:hover a:empty {visibility: visible}
-a:link, a:visited {color: #03c; text-decoration: none}
-a:hover, a:active {color: #03f; text-decoration: underline}
-hr {border: 0; border-bottom: thin solid}
+a:link {color: #00e}
+a:visited {color: #518}
+a:focus, a:hover, a:active {color: #03f}
+hr {border: 0; border-bottom: thin dotted}
 table {min-width: 100%; border-spacing: 0 0.25em;}
 th, td {padding: 0.5em; text-align: right}
 th, .data {background: #eee}
@@ -31,14 +32,15 @@ th, .data {background: #eee}
 .info :last-child {margin-bottom: 0}
 footer {margin: 1.5em 0; text-align: center; font-size: small}
 @media (prefers-color-scheme: dark) {
-  body {color: #bbb; background: #222}
-  a:link, a:visited {color: #9bf}
-  a:hover, a:active {color: #acf}
-  th, .data {background: #111}
+  body {color: #bbb; background: #111}
+  a:link {color: #9bf}
+  a:visited {color: #caf}
+  a:focus, a:hover, a:active {color: #9cf}
+  th, .data {background: #000}
   .rank {border-color: #444}
-  .data:hover, .data:active, .data:focus {background: #000}
-  .info {background: #114; display: none}
-  .info td {border-color: #669}
+  .data:hover, .data:active, .data:focus {background: #222}
+  .info {background: #003; display: none}
+  .info td {border-color: #447}
 }
 </style>
 <script>
@@ -96,21 +98,19 @@ picked for this list.
   </tr>
 ${rowsHTML}</table>
 <p>
-The data in the table above was fetched on ${date} at ${time}. This data
-is refreshed automatically every Saturday at 01:09 UTC as well as on
-every push to its <a href="https://github.com/susam/10kbclub">GitHub
+The data in the table above was fetched on ${date} at ${time}. This
+data is refreshed automatically every Saturday as well as on every
+push to its <a href="https://github.com/susam/10kbclub">GitHub
 repository</a>.
 </p>
 <p>
 Do not take the content size and content ratio columns too seriously.
 The content size is calculated using <a
-href="https://github.com/susam/10kbclub/blob/master/src/refresh.js">refresh.js</a>
+href="https://github.com/susam/10kbclub/blob/main/src/refresh.js">refresh.js</a>
 in the source code of the repository. It is not always accurate. For
 example, it considers internal CSS to be content but external CSS to be
 not content. Therefore, home pages that use CSS within an HTML page have
-an unfair advantage to get a higher content ratio than it should. <a
-href="https://250kb.club/">250 KB Club</a> too suffers from the same
-issue.
+an unfair advantage to get a higher content ratio than it should.
 </p>
 
 <h2 id="club-rules">Club Rules<a href="#club-rules"></a></h2>
@@ -164,15 +164,12 @@ URL to its home page. The URL must satisfy the following rules:
   <li>
     <p>
       The website must be very noteworthy or some content from the
-      website must have received at least 100 points on
-      <a href="https://www.reddit.com/">Reddit</a> or
-      <a href="https://news.ycombinator.com/">Hacker News</a> on at
-      least one occasion. Use
+      website must have received at least 100 points on Reddit or
+      Hacker News on at least one occasion. Use
       <a href="https://www.reddit.com/search/?sort=top&q=site:example.com">this
       Reddit link</a> or
       <a href="https://news.ycombinator.com/from?site=example.com">this
-      Hacker News link</a>
-      to check submissions for a website in these
+      Hacker News link</a> to check submissions for a website in these
       forums and the points the submissions have received. Replace
       "example.com" with the domain of the website while visiting
       these links above.
@@ -184,7 +181,7 @@ Note that the manual steps provided for Firefox and Chrome in the 1st
 point do not constitute a definitive decision criteria for membership.
 The compressed transfer size computation for every website is automated
 in <a
-href="https://github.com/susam/10kbclub/blob/master/src/refresh.js">refresh.js</a>.
+href="https://github.com/susam/10kbclub/blob/main/src/refresh.js">refresh.js</a>.
 The compressed transfer size observed by this script decides whether a
 website satisfies the 1st rule. The compressed transfer size observed by
 the script does not always exactly match what Firefox or Chrome shows.
@@ -227,9 +224,6 @@ this website is available on
 This website is inspired by Bradley Taunt's <a
 href="https://1mb.club/">1 MB Club</a> and Norman K&ouml;hring's <a
 href="https://250kb.club/">250 KB Club</a>.
-</p>
-<p>
-Made with &#9829; for a performant web.
 </p>
 </footer>
 </body>
