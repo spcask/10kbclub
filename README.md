@@ -46,7 +46,7 @@ To build and develop this project locally, perform the following steps:
     following command:
 
     ```
-    sudo apt-get install nodejs
+    sudo apt-get install nodejs npm chromium time
     ```
 
  2. Clone this repository:
@@ -69,8 +69,8 @@ To build and develop this project locally, perform the following steps:
     node src/refresh.js
     ```
 
- 5. Enter the following command to render an updated [`index.html`] with
-    using the data in `metrics.json`:
+ 5. Enter the following command to render the home page using the data
+    in `metrics.json`:
 
     ```sh
     node src/render.js
@@ -89,7 +89,7 @@ To build and develop this project locally, perform the following steps:
     node src/metrics.js https://www.example.com/ https://www.example.org/
     ```
 
- 7. Now open [`index.html`] using a web browser to see the output.
+ 7. Now open `index.html` using a web browser to see the output.
 
 
 Commit Guidelines
@@ -97,21 +97,15 @@ Commit Guidelines
 
 The following guidelines are followed in the commits made manually:
 
- 1. No changes to [`index.html`] should be present in a manual commit.
-    This file is updated and pushed to [10kbclub.com][website]
-    automatically during automated builds.
-
- 2. The following command should pass without errors:
+ 1. The following command should pass without errors:
 
     ```sh
     make render
     ```
 
- 3. Commit messages are written as per the guidelines in this document:
+ 2. Commit messages are written as per the guidelines in this document:
     [Writing Good Commit Messages][commit-conventions].
 
-[`js/urls.json`]: js/urls.json
-[`index.html`]: index.html
 [commit-conventions]: https://github.com/erlang/otp/wiki/Writing-good-commit-messages
 
 
@@ -125,8 +119,8 @@ understanding this project.
     automatically published as https://10kbclub.com/ using [GitHub
     Pages][gh-pages].
 
- 2. The file [`index.html`] gets updated automatically once a day at
-    00:00:00 UTC as well as on every push via GitHub Actions. See
+ 2. The build job to publish the website runs automatically once every
+    Saturday as well as on every push via GitHub Actions. See
     [`live.yml`] for the GitHub Actions workflow. See
     https://github.com/susam/10kbclub/actions for the previous
     executions of the workflow.
@@ -135,8 +129,9 @@ understanding this project.
     exhaustive. Only the 5 earliest discussion threads that have
     100 points or more have been picked from each forum.
 
-[gh-pages]: https://pages.github.com/
 [`live.yml`]: .github/workflows/live.yml
+[`js/urls.json`]: js/urls.json
+[gh-pages]: https://pages.github.com/
 [actions]: https://github.com/susam/10kbclub/actions
 
 
