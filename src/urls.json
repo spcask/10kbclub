@@ -141,6 +141,12 @@
         "title": "1MB Club",
         "url": "https://news.ycombinator.com/item?id=25151773",
         "points": 965
+      },
+      {
+        "date": "2022-07-18",
+        "title": "Two Years and Over 700 Websites Later",
+        "url": "https://news.ycombinator.com/item?id=32138631",
+        "points": 140
       }
     ]
   },
@@ -213,10 +219,22 @@
         "points": 130
       },
       {
-        "date": "2020-05-09",
-        "title": "Verschwörungstheorien in Kombination zu betrachten (German)",
-        "url": "https://www.reddit.com/r/de/comments/ggd5v2",
-        "points": 230
+        "date": "2021-08-18",
+        "title": "Collision in Apple's image hash method (German)",
+        "url": "https://www.reddit.com/r/de/comments/p6vea8",
+        "points": 175
+      },
+      {
+        "date": "2021-10-11",
+        "title": "Short announcement from the ECJ",
+        "url": "https://www.reddit.com/r/StallmanWasRight/comments/q604fy",
+        "points": 350
+      },
+      {
+        "date": "2022-06-24",
+        "title": "Epic login IPs with expired certificates",
+        "url": "https://www.reddit.com/r/fuckepic/comments/vjy0ap",
+        "points": 180
       }
     ]
   },
@@ -340,46 +358,16 @@
     "url": "https://sdf.org/",
     "discussions": [
       {
-        "date": "2015-03-23",
-        "title": "Why Are My Page_faults So High in Perf?",
-        "url": "https://www.reddit.com/r/programming/comments/301cpl",
-        "points": 100
-      },
-      {
-        "date": "2019-11-28",
-        "title": "gccemacs",
-        "url": "https://www.reddit.com/r/emacs/comments/e2vzu7",
-        "points": 130
-      },
-      {
-        "date": "2013-05-01",
-        "title": "This page is anonymous",
-        "url": "https://news.ycombinator.com/item?id=5638988",
-        "points": 450
-      },
-      {
-        "date": "2014-03-18",
-        "title": "iOS 7.1 Mobile Safari Minimal UI",
-        "url": "https://news.ycombinator.com/item?id=7424814",
-        "points": 151
-      },
-      {
-        "date": "2016-08-24",
-        "title": "Dinosaur and Lisp",
-        "url": "https://news.ycombinator.com/item?id=12351187",
-        "points": 237
-      },
-      {
-        "date": "2016-08-24",
-        "title": "SDF – Public Access Unix System",
+        "date": "2017-04-17",
+        "title": "SDF - Public Access Unix System",
         "url": "https://news.ycombinator.com/item?id=14134798",
         "points": 194
       },
       {
-        "date": "2018-08-26",
-        "title": "From GNU social to Mastodon",
-        "url": "https://news.ycombinator.com/item?id=17844587",
-        "points": 186
+        "date": "2022-04-18",
+        "title": "SDF - Public Access Unix System",
+        "url": "https://news.ycombinator.com/item?id=31076886",
+        "points": 159
       }
     ]
   },
@@ -391,6 +379,24 @@
         "title": "A look at search engines with their own indexes",
         "url": "https://www.reddit.com/r/degoogle/comments/m9hesi",
         "points": 160
+      },
+      {
+        "date": "2021-01-31",
+        "title": "WhatsApp and the Domestication of Users",
+        "url": "https://news.ycombinator.com/item?id=25982860",
+        "points": 168
+      },
+      {
+        "date": "2022-06-21",
+        "title": "A look at search engines with their own indexes",
+        "url": "https://news.ycombinator.com/item?id=31820149",
+        "points": 271
+      },
+      {
+        "date": "2022-06-27",
+        "title": "Two types of privacy",
+        "url": "https://news.ycombinator.com/item?id=31891132",
+        "points": 111
       }
     ]
   },
@@ -402,6 +408,12 @@
         "title": "Text-Only Websites",
         "url": "https://news.ycombinator.com/item?id=23626929",
         "points": 302
+      },
+      {
+        "date": "2021-09-03",
+        "title": "Windows 11: a survey of text boxes",
+        "url": "https://news.ycombinator.com/item?id=28403005",
+        "points": 125
       }
     ]
   },
@@ -409,40 +421,28 @@
     "url": "https://susam.net/",
     "discussions": [
       {
-        "date": "2011-05-18",
-        "title": "Sequence Points",
-        "url": "https://www.reddit.com/r/programming/comments/he7c7",
-        "points": 130
-      },
-      {
-        "date": "2020-02-02",
-        "title": "Global Palindrome Day",
-        "url": "https://www.reddit.com/r/programming/comments/exjhfc",
-        "points": 170
-      },
-      {
-        "date": "2021-11-18",
+        "date": "2022-09-25",
         "title": "Peculiar Self-References",
-        "url": "https://www.reddit.com/r/programming/comments/qwnspv",
-        "points": 180
-      },
-      {
-        "date": "2019-12-04",
-        "title": "Sinkholed",
-        "url": "https://news.ycombinator.com/item?id=21700139",
-        "points": 616
-      },
-      {
-        "date": "2021-08-31",
-        "title": "Non-Commercial Licenses Are Non-Free Licenses",
-        "url": "https://news.ycombinator.com/item?id=28366305",
+        "url": "https://www.reddit.com/r/Python/comments/xnii60",
         "points": 105
       },
       {
-	"date": "2022-01-09",
-	"title": "Simplicity of IRC",
-	"url": "https://news.ycombinator.com/item?id=29862550",
-	"points": 364
+        "date": "2022-01-09",
+        "title": "Simplicity of IRC",
+        "url": "https://news.ycombinator.com/item?id=29862550",
+        "points": 364
+      },
+      {
+        "date": "2022-03-12",
+        "title": "Comfort of Bloated Web",
+        "url": "https://news.ycombinator.com/item?id=30654497",
+        "points": 158
+      },
+      {
+        "date": "2022-11-06",
+        "title": "Zero Point Leet Seconds",
+        "url": "https://news.ycombinator.com/item?id=33491350",
+        "points": 129
       }
     ]
   },
@@ -465,6 +465,12 @@
         "title": "Ham Radio Needs To Embrace The Hacker Community Now More Than Ever",
         "url": "https://www.reddit.com/r/amateurradio/comments/k05lmo",
         "points": 320
+      },
+      {
+        "date": "2021-12-12",
+        "title": "Sending SMS Messages Through the ISS",
+        "url": "https://news.ycombinator.com/item?id=29530400",
+        "points": 169
       }
     ]
   },
@@ -472,10 +478,10 @@
     "url": "https://www.paritybit.ca/",
     "discussions": [
       {
-        "date": "2020-08-30",
-        "title": "Why IRC is Still Good in $CURRENT_YEAR",
-        "url": "https://lobste.rs/s/rzesjq",
-        "points": 61
+        "date": "2020-07-07",
+        "title": "A Month-and-a-Half of Self-Hosted Email",
+        "url": "https://www.reddit.com/r/selfhosted/comments/hmqylf",
+        "points": 80
       }
     ]
   },
@@ -522,7 +528,7 @@
         "date": "2020-04-10",
         "title": "Ode to J",
         "url": "https://news.ycombinator.com/item?id=22831931",
-        "points": 85
+        "points": 163
       },
       {
         "date": "2020-04-28",
