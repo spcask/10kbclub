@@ -1,6 +1,6 @@
 ---
 name: Suggest new website
-about: ''
+about: Suggest a new website or web application to be added to the 10 KB Club
 title: ''
 labels: ''
 assignees: ''
