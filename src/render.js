@@ -3,11 +3,10 @@ const path = require('path')
 const metrics = require('./metrics')
 
 function makeDiscussionHTML (discussions) {
-  let html = `
-    <p>
-      See the following discussions on content from this website:
-    </p>
-    <ul>
+  let html = `<p>
+        See the following discussions on content from this website:
+      </p>
+      <ul>
 `
   for (const d of discussions) {
     let where
@@ -22,12 +21,13 @@ function makeDiscussionHTML (discussions) {
       where = 'Lobsters'
       points = d.points
     }
-    html += `<li>
-      <a href="${d.url}">${d.title}</a>
-      (${points} points on ${where})
-    </li>`
+    html += `        <li>
+          <a href="${d.url}">${d.title}</a>
+          (${points} points on ${where})
+        </li>
+`
   }
-  html += '</ul>'
+  html += '      </ul>'
   return html
 }
 
