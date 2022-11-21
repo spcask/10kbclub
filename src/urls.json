@@ -1,16 +1,5 @@
 [
   {
-    "url": "https://ajroach42.com/",
-    "discussions": [
-      {
-        "date": "2019-06-25",
-        "title": "Floppycasts - 1.44MB Podcasts",
-        "url": "https://news.ycombinator.com/item?id=20270800",
-        "points": 138
-      }
-    ]
-  },
-  {
     "url": "http://akkartik.name/",
     "discussions": [
       {
@@ -128,17 +117,6 @@
     ]
   },
   {
-    "url": "https://www.cynicusrex.com/",
-    "discussions": [
-      {
-        "date": "2021-11-28",
-        "title": "Web4 should run on LaTeX",
-        "url": "https://news.ycombinator.com/item?id=29370620",
-        "points": 307
-      }
-    ]
-  },
-  {
     "url": "https://10kbclub.com/",
     "discussions": [
       {
@@ -169,6 +147,17 @@
         "title": "Two Years and Over 700 Websites Later",
         "url": "https://news.ycombinator.com/item?id=32138631",
         "points": 140
+      }
+    ]
+  },
+  {
+    "url": "https://ajroach42.com/",
+    "discussions": [
+      {
+        "date": "2019-06-25",
+        "title": "Floppycasts - 1.44MB Podcasts",
+        "url": "https://news.ycombinator.com/item?id=20270800",
+        "points": 138
       }
     ]
   },
@@ -388,6 +377,17 @@
     ]
   },
   {
+    "url": "https://rutar.org/",
+    "discussions": [
+      {
+        "date": "2022-09-29",
+        "title": "How to build a personal webpage from scratch",
+        "url": "https://news.ycombinator.com/item?id=33017056",
+        "points": 763
+      }
+    ]
+  },
+  {
     "url": "https://sdf.org/",
     "discussions": [
       {
@@ -502,6 +502,17 @@
     ]
   },
   {
+    "url": "https://www.cynicusrex.com/",
+    "discussions": [
+      {
+        "date": "2021-11-28",
+        "title": "Web4 should run on LaTeX",
+        "url": "https://news.ycombinator.com/item?id=29370620",
+        "points": 307
+      }
+    ]
+  },
+  {
     "url": "https://www.kj7nzl.net/",
     "discussions": [
       {
@@ -526,17 +537,6 @@
         "title": "A Month-and-a-Half of Self-Hosted Email",
         "url": "https://www.reddit.com/r/selfhosted/comments/hmqylf",
         "points": 80
-      }
-    ]
-  },
-  {
-    "url": "https://rutar.org/",
-    "discussions": [
-      {
-        "date": "2022-09-29",
-        "title": "How to build a personal webpage from scratch",
-        "url": "https://rutar.org/",
-        "points": 763
       }
     ]
   },
