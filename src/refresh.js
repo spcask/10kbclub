@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const yaml = require('yaml')
 const metrics = require('./metrics')
 
 async function refreshMetrics (urlList) {
@@ -28,15 +29,15 @@ function writeMetrics (metricsList) {
     metricsTime: new Date().toUTCString(),
     metricsList: metricsList
   }
-  const jsonString = JSON.stringify(urlMetrics, null, 2) + '\n'
-  const metricsPath = path.join(__dirname, '..', 'metrics.json')
-  fs.writeFileSync(metricsPath, jsonString, 'utf8')
-  console.log('Updated metrics.json with latest data')
+  const yamlString = yaml.stringify(urlMetrics, null, 2) + '\n'
+  const metricsPath = path.join(__dirname, '..', 'metrics.yaml')
+  fs.writeFileSync(metricsPath, yamlString, 'utf8')
+  console.log('Updated metrics.yaml with latest data')
 }
 
 async function main () {
-  const urlPath = path.join(__dirname, 'urls.json')
-  const urlData = JSON.parse(fs.readFileSync(urlPath, 'utf8'))
+  const urlPath = path.join(__dirname, 'urls.yaml')
+  const urlData = yaml.parse(fs.readFileSync(urlPath, 'utf8'))
   const urlList = urlData.map(item => item.url)
   const metricsList = await refreshMetrics(urlList)
   writeMetrics(metricsList)

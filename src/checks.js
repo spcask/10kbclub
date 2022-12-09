@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const yaml = require('yaml')
 
 function forumPriority (forumURL) {
   if (forumURL.startsWith('https://www.reddit.com/')) {
@@ -14,8 +15,8 @@ function forumPriority (forumURL) {
 }
 
 function main () {
-  const urlPath = path.join(__dirname, 'urls.json')
-  const urlData = JSON.parse(fs.readFileSync(urlPath, 'utf8'))
+  const urlPath = path.join(__dirname, 'urls.yaml')
+  const urlData = yaml.parse(fs.readFileSync(urlPath, 'utf8'))
 
   let prevURL = ''
   for (const urlItem of urlData) {

@@ -1,0 +1,390 @@
+- url: http://akkartik.name/
+  discussions:
+  - date: '2017-11-11'
+    title: The cargo cult of versioning
+    url: https://news.ycombinator.com/item?id=15676691
+    points: 198
+  - date: '2018-02-27'
+    title: Nobody's just reading your code
+    url: https://news.ycombinator.com/item?id=16471161
+    points: 352
+  - date: '2019-10-18'
+    title: 'Mu: A minimal hobbyist computing stack'
+    url: https://news.ycombinator.com/item?id=21268252
+    points: 105
+  - date: '2019-11-22'
+    title: 'Mu: Sketching out a minimal system programming language'
+    url: https://news.ycombinator.com/item?id=21604685
+    points: 102
+  - date: '2020-09-17'
+    title: Bicycles for the mind have to be see-through
+    url: https://news.ycombinator.com/item?id=22599953
+    points: 210
+- url: http://cat-v.org/
+  discussions:
+  - date: '2007-06-29'
+    title: The amazing Duff’s Device by Tom Duff!
+    url: https://www.reddit.com/r/programming/comments/225xe
+    points: 190
+  - date: '2009-04-24'
+    title: The history of UTF-8 as told by Rob Pike
+    url: https://www.reddit.com/r/programming/comments/8f05r
+    points: 230
+  - date: '2009-06-20'
+    title: S-exp vs XML, by Erik Naggum
+    url: https://www.reddit.com/r/programming/comments/8u72o
+    points: 260
+  - date: '2009-07-04'
+    title: Programming Quotes
+    url: https://www.reddit.com/r/programming/comments/8y348
+    points: 630
+  - date: '2009-08-24'
+    title: The Origin of Unix Pipes
+    url: https://www.reddit.com/r/programming/comments/9djot
+    points: 140
+  - date: '2011-01-07'
+    title: 'SOAP: The ''S'' stands for simple (not really)'
+    url: https://news.ycombinator.com/item?id=2079631
+    points: 246
+  - date: '2011-03-01'
+    title: The Origin of Unix Pipes
+    url: https://news.ycombinator.com/item?id=2275161
+    points: 133
+  - date: '2011-05-01'
+    title: 'The Basic Laws of Human Stupidity '
+    url: https://news.ycombinator.com/item?id=2570448
+    points: 120
+  - date: '2011-07-03'
+    title: The 'intellectual property' oxymoron
+    url: https://news.ycombinator.com/item?id=2723505
+    points: 115
+  - date: '2011-07-17'
+    title: 'Plan9 has been forked: 9front'
+    url: https://news.ycombinator.com/item?id=2772718
+    points: 150
+- url: http://neverssl.com/
+  discussions:
+  - date: '2017-01-10'
+    title: NeverSSL
+    url: https://news.ycombinator.com/item?id=13369038
+    points: 307
+  - date: '2019-11-02'
+    title: NeverSSL
+    url: https://news.ycombinator.com/item?id=21430157
+    points: 346
+- url: https://10kbclub.com/
+  discussions:
+  - date: '2020-12-26'
+    title: 10 KB Club
+    url: https://www.reddit.com/r/webdev/comments/kkcoko
+    points: 610
+  - date: '2020-12-28'
+    title: 10 KB Club
+    url: https://news.ycombinator.com/item?id=25556860
+    points: 123
+- url: https://1mb.club/
+  discussions:
+  - date: '2020-11-19'
+    title: 1MB Club
+    url: https://news.ycombinator.com/item?id=25151773
+    points: 965
+  - date: '2022-07-18'
+    title: Two Years and Over 700 Websites Later
+    url: https://news.ycombinator.com/item?id=32138631
+    points: 140
+- url: https://ajroach42.com/
+  discussions:
+  - date: '2019-06-25'
+    title: Floppycasts - 1.44MB Podcasts
+    url: https://news.ycombinator.com/item?id=20270800
+    points: 138
+- url: https://augustl.com/
+  discussions:
+  - date: '2013-04-20'
+    title: Truly concurrent user interfaces
+    url: https://www.reddit.com/r/programming/comments/1crm00
+    points: 100
+  - date: '2014-07-08'
+    title: That WoW server blade
+    url: https://www.reddit.com/r/wow/comments/2cyu9d
+    points: 190
+  - date: '2019-12-05'
+    title: Linux exists only because of a happy accident
+    url: https://www.reddit.com/r/linux/comments/e6fvj0
+    points: 960
+  - date: '2019-12-18'
+    title: 'The #1 bug predictor is not technical'
+    url: https://www.reddit.com/r/programming/comments/ec9s2o
+    points: 320
+  - date: '2013-07-22'
+    title: ZeroMQ instead of HTTP, for internal services
+    url: https://news.ycombinator.com/item?id=6086983
+    points: 206
+  - date: '2014-02-02'
+    title: An immutable operating system
+    url: https://news.ycombinator.com/item?id=7166173
+    points: 286
+  - date: '2014-03-22'
+    title: JDK8 + Facebook React
+    url: https://news.ycombinator.com/item?id=7449262
+    points: 118
+  - date: '2014-08-08'
+    title: That WoW server blade
+    url: https://news.ycombinator.com/item?id=8153781
+    points: 104
+  - date: '2018-04-21'
+    title: 'Datomic: Look at all the things I''m not doing'
+    url: https://news.ycombinator.com/item?id=16889789
+    points: 138
+- url: https://blog.fefe.de/
+  discussions:
+  - date: '2017-10-31'
+    title: Monero mining malware sneaking into Android apps
+    url: https://www.reddit.com/r/Android/comments/79uv4p
+    points: 130
+  - date: '2021-08-18'
+    title: Collision in Apple's image hash method (German)
+    url: https://www.reddit.com/r/de/comments/p6vea8
+    points: 175
+  - date: '2021-10-11'
+    title: Short announcement from the ECJ
+    url: https://www.reddit.com/r/StallmanWasRight/comments/q604fy
+    points: 350
+  - date: '2022-06-24'
+    title: Epic login IPs with expired certificates
+    url: https://www.reddit.com/r/fuckepic/comments/vjy0ap
+    points: 180
+- url: https://box.matto.nl/
+  discussions:
+  - date: '2019-02-16'
+    title: We Must Revive Gopher
+    url: https://news.ycombinator.com/item?id=19178885
+    points: 230
+- url: https://carter.sande.duodecima.technology/
+  discussions:
+  - date: '2019-07-21'
+    title: Browsers are pretty good at loading pages
+    url: https://news.ycombinator.com/item?id=20492087
+    points: 592
+  - date: '2021-01-11'
+    title: My personal wishlist for a decentralized social network
+    url: https://news.ycombinator.com/item?id=25731419
+    points: 361
+- url: https://cedaei.com/
+  discussions:
+  - date: '2020-08-26'
+    title: 'Vim-Like Layer for Xorg and Wayland '
+    url: https://news.ycombinator.com/item?id=24280413
+    points: 148
+- url: https://exozy.me/
+  discussions:
+  - date: '2022-02-01'
+    title: Installing Every Arch Package
+    url: https://www.reddit.com/r/linux/comments/shxq12
+    points: 810
+  - date: '2022-02-01'
+    title: Installing Every Arch Package
+    url: https://news.ycombinator.com/item?id=30160191
+    points: 271
+- url: https://jlelse.blog/
+  discussions:
+  - date: '2019-12-15'
+    title: Google is not a search engine, but an ad engine
+    url: https://www.reddit.com/r/privacy/comments/eb126i
+    points: 2050
+  - date: '2020-11-29'
+    title: Why is the market share of Firefox in Germany so much higher?
+    url: https://www.reddit.com/r/firefox/comments/k35552
+    points: 330
+- url: https://john-doe.neocities.org
+  discussions:
+  - date: '2020-11-21'
+    title: A simple way to make HTML websites
+    url: https://news.ycombinator.com/item?id=25170078
+    points: 200
+- url: https://kerkour.fr/
+  discussions:
+  - date: '2019-06-05'
+    title: Bloom – A free and open source 'Google'
+    url: https://news.ycombinator.com/item?id=20105567
+    points: 747
+- url: https://kirjava.xyz/
+  discussions:
+  - date: '2020-06-14'
+    title: Does interactivity count?
+    url: https://www.reddit.com/r/loadingicon/comments/h8uo7c
+    points: 120
+- url: https://lawzava.com/
+  discussions:
+  - date: '2020-11-29'
+    title: State Of Linux Usability 2020
+    url: https://www.reddit.com/r/linux/comments/k353y7
+    points: 90
+- url: https://m-chrzan.xyz/
+  discussions:
+  - date: '2020-10-06'
+    title: Vim Keybindings in All CLIs
+    url: https://www.reddit.com/r/vim/comments/j61q0y
+    points: '140'
+- url: https://minwiz.com/
+  discussions:
+  - date: '2021-01-07'
+    title: Starter kit for lightweight sites
+    url: https://www.reddit.com/r/programming/comments/krooqi
+    points: '1100'
+- url: https://nytpu.com/
+  discussions:
+  - date: '2021-03-12'
+    title: How Git servers work, and how to keep yours secure
+    url: https://news.ycombinator.com/item?id=26436872
+    points: '167'
+- url: https://plumebio.com/
+  discussions:
+  - date: '2020-08-01'
+    title: JavaScript-free personal bio hosting
+    url: https://news.ycombinator.com/item?id=24019540
+    points: 123
+- url: https://rutar.org/
+  discussions:
+  - date: '2022-09-29'
+    title: How to build a personal webpage from scratch
+    url: https://news.ycombinator.com/item?id=33017056
+    points: 763
+- url: https://sdf.org/
+  discussions:
+  - date: '2017-04-17'
+    title: SDF - Public Access Unix System
+    url: https://news.ycombinator.com/item?id=14134798
+    points: 194
+  - date: '2022-04-18'
+    title: SDF - Public Access Unix System
+    url: https://news.ycombinator.com/item?id=31076886
+    points: 159
+- url: https://seirdy.one
+  discussions:
+  - date: '2021-03-21'
+    title: A look at search engines with their own indexes
+    url: https://www.reddit.com/r/degoogle/comments/m9hesi
+    points: 160
+  - date: '2021-01-31'
+    title: WhatsApp and the Domestication of Users
+    url: https://news.ycombinator.com/item?id=25982860
+    points: 168
+  - date: '2022-06-21'
+    title: A look at search engines with their own indexes
+    url: https://news.ycombinator.com/item?id=31820149
+    points: 271
+  - date: '2022-06-27'
+    title: Two types of privacy
+    url: https://news.ycombinator.com/item?id=31891132
+    points: 111
+- url: https://sjmulder.nl/
+  discussions:
+  - date: '2020-06-24'
+    title: Text-Only Websites
+    url: https://news.ycombinator.com/item?id=23626929
+    points: 302
+  - date: '2021-09-03'
+    title: 'Windows 11: a survey of text boxes'
+    url: https://news.ycombinator.com/item?id=28403005
+    points: 125
+- url: https://susam.net/
+  discussions:
+  - date: '2022-09-25'
+    title: Peculiar Self-References
+    url: https://www.reddit.com/r/Python/comments/xnii60
+    points: 105
+  - date: '2022-01-09'
+    title: Simplicity of IRC
+    url: https://news.ycombinator.com/item?id=29862550
+    points: 364
+  - date: '2022-03-12'
+    title: Comfort of Bloated Web
+    url: https://news.ycombinator.com/item?id=30654497
+    points: 158
+  - date: '2022-11-06'
+    title: Zero Point Leet Seconds
+    url: https://news.ycombinator.com/item?id=33491350
+    points: 129
+- url: https://t0.vc/
+  discussions:
+  - date: '2022-07-27'
+    title: Fake Dog for Home Security
+    url: https://news.ycombinator.com/item?id=32250487
+    points: 317
+- url: https://tomasino.org/
+  discussions:
+  - date: '2020-01-26'
+    title: GNU Recutils
+    url: https://news.ycombinator.com/item?id=22153665
+    points: 505
+- url: https://www.cynicusrex.com/
+  discussions:
+  - date: '2021-11-28'
+    title: Web4 should run on LaTeX
+    url: https://news.ycombinator.com/item?id=29370620
+    points: 307
+- url: https://www.kj7nzl.net/
+  discussions:
+  - date: '2020-11-24'
+    title: Ham Radio Needs To Embrace The Hacker Community Now More Than Ever
+    url: https://www.reddit.com/r/amateurradio/comments/k05lmo
+    points: 320
+  - date: '2021-12-12'
+    title: Sending SMS Messages Through the ISS
+    url: https://news.ycombinator.com/item?id=29530400
+    points: 169
+- url: https://www.paritybit.ca/
+  discussions:
+  - date: '2020-07-07'
+    title: A Month-and-a-Half of Self-Hosted Email
+    url: https://www.reddit.com/r/selfhosted/comments/hmqylf
+    points: 80
+- url: https://zserge.com/
+  discussions:
+  - date: '2012-10-25'
+    title: 'CUCU: A compiler you can understand'
+    url: https://www.reddit.com/r/programming/comments/12253z
+    points: 130
+  - date: '2017-07-19'
+    title: Syntactic sugar in C - (ab)using "for" loops
+    url: https://www.reddit.com/r/programming/comments/6obyqb
+    points: 200
+  - date: '2020-04-28'
+    title: Tmux for mere mortals
+    url: https://www.reddit.com/r/commandline/comments/g9k4sz
+    points: 110
+  - date: '2020-06-02'
+    title: How to write a (toy) JVM
+    url: https://www.reddit.com/r/java/comments/gv3l2g
+    points: 150
+  - date: '2020-10-12'
+    title: World smallest office suite
+    url: https://www.reddit.com/r/webdev/comments/j9o6yq
+    points: 150
+  - date: '2017-02-17'
+    title: Partcl - a tiny command language
+    url: https://news.ycombinator.com/item?id=13592645
+    points: 114
+  - date: '2020-04-10'
+    title: Ode to J
+    url: https://news.ycombinator.com/item?id=22831931
+    points: 163
+  - date: '2020-04-28'
+    title: Tmux for mere mortals
+    url: https://news.ycombinator.com/item?id=23003603
+    points: 586
+  - date: '2020-05-13'
+    title: Linux containers in a few lines of code
+    url: https://news.ycombinator.com/item?id=23165157
+    points: 458
+  - date: '2020-05-20'
+    title: KVM host in a few lines of code
+    url: https://news.ycombinator.com/item?id=23244709
+    points: 158
+- url: https://zupzup.org/
+  discussions:
+  - date: '2019-04-07'
+    title: A Basic Web Application with Rust and Actix-web
+    url: https://www.reddit.com/r/rust/comments/balhup
+    points: 130

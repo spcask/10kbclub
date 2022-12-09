@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const yaml = require('yaml')
 const metrics = require('./metrics')
 
 function makeDiscussionHTML (discussions) {
@@ -54,14 +55,14 @@ function makeRowHTML (rank, urlMetrics, discussions) {
 
 function main () {
   const urlMap = {}
-  const urlPath = path.join(__dirname, 'urls.json')
-  const urlData = JSON.parse(fs.readFileSync(urlPath, 'utf8'))
+  const urlPath = path.join(__dirname, 'urls.yaml')
+  const urlData = yaml.parse(fs.readFileSync(urlPath, 'utf8'))
   for (const urlItem of urlData) {
     urlMap[urlItem.url] = urlItem
   }
 
-  const metricsPath = path.join(__dirname, '..', 'metrics.json')
-  const urlMetrics = JSON.parse(fs.readFileSync(metricsPath, 'utf8'))
+  const metricsPath = path.join(__dirname, '..', 'metrics.yaml')
+  const urlMetrics = yaml.parse(fs.readFileSync(metricsPath, 'utf8'))
 
   let rowsHTML = ''
   for (const [i, m] of urlMetrics.metricsList.entries()) {
