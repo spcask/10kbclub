@@ -22,6 +22,11 @@ deb-setup:
 	sudo apt-get install chromium
 	. ./env && npm install
 
+build-setup:
+	sudo apt-get install nodejs
+	> env
+	npm install
+
 live:
 	git config user.name "make"
 	git config user.email "make@localhost"
