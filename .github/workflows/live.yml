@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: date; pwd; ls -l
-      - run: make setup
+      - run: make deb-setup
       - run: make render
       - run: make live

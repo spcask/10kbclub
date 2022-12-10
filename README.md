@@ -33,50 +33,64 @@ Development Setup
 
 To build and develop this project locally, perform the following steps:
 
- 1. Install Node.
+ 1. Clone this repository:
+
+    ```sh
+    git clone https://github.com/susam/10kbclub.git
+    ```
+
+ 2. Install Node.
 
     On macOS, enter the following command if you have
     [Homebrew](https://brew.sh):
 
     ```sh
-    brew install node
+    make mac-setup
     ```
 
     On Debian, Ubuntu, or another Debian-based Linux system, enter the
     following command:
 
     ```
-    sudo apt-get install nodejs npm chromium time
+    make deb-setup
     ```
 
- 2. Clone this repository:
+ 3. Enter the following command to create a local copy of the website:
 
     ```sh
-    git clone https://github.com/susam/10kbclub.git
+    make render
     ```
 
- 3. Initialize the repository with NPM `node_modules`:
+ 4. Now open `index.html` using a web browser to see the output.
+
+
+Development Activities
+----------------------
+
+ 1. On a Linux system, enter the following command to ensure that the
+    directory for Node binaries are added to the `PATH` environment
+    variable:
 
     ```sh
-    cd 10kbclub
-    npm install
+    . ./env
     ```
 
- 4. Enter the following command to generate a `metrics.json` file with
-    metrics data for each URL specified in [`js/urls.json`]:
+ 2. Enter the following command to generate a file named
+    `metrics.yaml` that would contain metrics data for each URL in the
+    file `src/urls.yaml`:
 
     ```sh
     node src/refresh.js
     ```
 
- 5. Enter the following command to render the home page using the data
-    in `metrics.json`:
+ 3. Enter the following command to render the home page using the data
+    in `metrics.yaml`:
 
     ```sh
     node src/render.js
     ```
 
- 6. Enter the following command to fetch a single URL and print its
+ 4. Enter the following command to fetch a single URL and print its
     metrics:
 
     ```sh
@@ -89,17 +103,16 @@ To build and develop this project locally, perform the following steps:
     node src/metrics.js https://www.example.com/ https://www.example.org/
     ```
 
- 7. Now open `index.html` using a web browser to see the output.
-
 
 Commit Guidelines
 -----------------
 
 The following guidelines are followed in the commits made manually:
 
- 1. The following command should pass without errors:
+ 1. The following commands should succeed without errors:
 
     ```sh
+    make checks
     make render
     ```
 
@@ -125,12 +138,12 @@ understanding this project.
     https://github.com/susam/10kbclub/actions for the previous
     executions of the workflow.
 
- 3. The links to discussion threads in [`js/urls.json`] are not
+ 3. The links to discussion threads in [`js/urls.yaml`] are not
     exhaustive. Only the 5 earliest discussion threads that have
     100 points or more have been picked from each forum.
 
 [`live.yml`]: .github/workflows/live.yml
-[`js/urls.json`]: js/urls.json
+[`js/urls.yaml`]: js/urls.yaml
 [gh-pages]: https://pages.github.com/
 [actions]: https://github.com/susam/10kbclub/actions
 

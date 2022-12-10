@@ -1,6 +1,9 @@
 *.sw?
 node_modules/
-metrics.json
+node/
+node.txz
+env
+metrics.yaml
 index.html
 favicon.png
 CNAME

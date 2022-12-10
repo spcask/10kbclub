@@ -1,18 +1,26 @@
 render:
-	time -p npm run lint
-	time -p node src/checks.js
-	time -p node src/refresh.js
-	time -p node src/render.js
+	. ./env && npm run lint
+	. ./env && node src/checks.js
+	. ./env && node src/refresh.js
+	. ./env && node src/render.js
 	cp src/favicon.png .
 	cp src/CNAME .
 
 checks:
 	node src/checks.js
 
-setup:
-	uname | grep Darwin && brew install node; :
-	uname | grep Linux && sudo apt-get install nodejs; :
+mac-setup:
+	brew install node
+	> env
 	npm install
+
+deb-setup:
+	curl -sSL https://nodejs.org/dist/v18.12.1/node-v18.12.1-linux-x64.tar.xz -o node.txz
+	mkdir -p node/
+	tar -xvf node.txz -C node --strip-components=1
+	echo "PATH=$$PWD/node/bin:\$$PATH" > env
+	sudo apt-get install chromium
+	. ./env && npm install
 
 live:
 	git config user.name "make"
