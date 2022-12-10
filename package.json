@@ -9,7 +9,7 @@
   "repository": "github:susam/10kbclub",
   "dependencies": {
     "phantomas": "^2.0.0",
-    "yaml": "2.0.0"
+    "yaml": "^2.0.0"
   },
   "devDependencies": {
     "standard": "^16.0.0"
