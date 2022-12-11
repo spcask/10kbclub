@@ -225,19 +225,19 @@
     - date: '2020-10-06'
       title: Vim Keybindings in All CLIs
       url: https://www.reddit.com/r/vim/comments/j61q0y
-      points: '140'
+      points: 140
 - url: https://minwiz.com/
   discussions:
     - date: '2021-01-07'
       title: Starter kit for lightweight sites
       url: https://www.reddit.com/r/programming/comments/krooqi
-      points: '1100'
+      points: 1100
 - url: https://nytpu.com/
   discussions:
     - date: '2021-03-12'
       title: How Git servers work, and how to keep yours secure
       url: https://news.ycombinator.com/item?id=26436872
-      points: '167'
+      points: 167
 - url: https://ploum.net/
   discussions:
     - date: '2013-05-17'
