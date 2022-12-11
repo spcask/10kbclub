@@ -5,31 +5,32 @@ async function fetchURL (url) {
   const r = await phantomas(url)
   const m = r.getMetrics()
 
-  const contentSize = m.htmlSize + m.jsonSize + m.imageSize +
-                      m.base64Size + m.videoSize
+  console.log('base64Size:', m.base64Size, '(no transfer)')
+  console.log('cssSize:', m.cssSize)
+  console.log('htmlSize:', m.htmlSize)
+  console.log('imageSize:', m.imageSize)
+  console.log('jsSize:', m.jsSize)
+  console.log('jsonSize:', m.jsonSize)
+  console.log('otherSize:', m.otherSize)
+  console.log('videoSize:', m.videoSize)
+  console.log('webfontSize:', m.webfontSize)
+  console.log('contentLength:', m.contentLength)
+
+  const contentSize = m.htmlSize + m.jsonSize + m.imageSize + m.videoSize
   const extraSize = m.cssSize + m.jsSize + m.webfontSize + m.otherSize
   const totalSize = contentSize + extraSize
-  const contentRatio = 100 * (contentSize / totalSize)
+  const contentRatio = 100 * (contentSize / m.contentLength)
 
-  console.log('htmlSize:', m.htmlSize)
-  console.log('jsonSize:', m.jsonSize)
-  console.log('imageSize:', m.imageSize)
-  console.log('base64Size:', m.base64Size)
-  console.log('videoSize:', m.videoSize)
-  console.log('cssSize:', m.cssSize)
-  console.log('jsSize:', m.jsSize)
-  console.log('webfontSize:', m.webfontSize)
-  console.log('otherSize:', m.otherSize)
-  console.log('contentSize:', contentSize)
-  console.log('extraSize:', extraSize)
-  console.log('totalSize:', totalSize)
+  console.log('contentSize:', contentSize, '(computed)')
+  console.log('extraSize:', extraSize, '(computed)')
+  console.log('totalSize:', totalSize, '(computed)')
+  console.log('contentLength === totalSize:', m.contentLength === totalSize)
   console.log()
 
   return {
     url: url,
     contentSize: contentSize,
-    extraSize: extraSize,
-    totalSize: totalSize,
+    totalSize: m.contentLength,
     contentRatio: contentRatio
   }
 }
