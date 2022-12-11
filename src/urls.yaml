@@ -238,6 +238,24 @@
       title: How Git servers work, and how to keep yours secure
       url: https://news.ycombinator.com/item?id=26436872
       points: '167'
+- url: https://ploum.net/
+  discussions:
+    - date: '2013-05-17'
+      title: The Fight for E-Clothing
+      url: https://www.reddit.com/r/Futurology/comments/1ej0n6/
+      points: 310
+    - date: '2020-07-07'
+      title: The Story Behind an Open Source Software Un-Maintenance
+      url: https://www.reddit.com/r/opensource/comments/hmuhz2/
+      points: 100
+    - date: '2012-01-18'
+      title: Why I'm a Pirate
+      url: https://news.ycombinator.com/item?id=3478850
+      points: 857
+    - date: '2022-12-05'
+      title: Drowning in AI Generated Garbage
+      url: https://news.ycombinator.com/item?id=33864276
+      points: 502
 - url: https://plumebio.com/
   discussions:
     - date: '2020-08-01'
