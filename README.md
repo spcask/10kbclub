@@ -25,7 +25,7 @@ club rules, then [create a new issue][new issue] and provide the URL of
 the website.
 
 [rules]: https://10kbclub.com/#club-rules
-[new issue]: https://github.com/susam/10kbclub/issues/new
+[new issue]: https://github.com/susam/10kbclub/issues/new?template=add.md
 
 
 Development Setup
