@@ -1,6 +1,8 @@
 10 KB Club
 ==========
 
+**NOTE: This project is no longer maintained.**
+
 This is the source code of [10kbclub.com][website].
 
 [website]: https://10kbclub.com/
